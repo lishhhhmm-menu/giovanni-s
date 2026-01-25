@@ -1,512 +1,2657 @@
 [
-    {
-        "id": "app-1",
-        "price": 12.50,
-        "category": "appetizers",
-        "dietary": [
-            "vegetarian"
-        ],
-        "image": "https://placehold.co/300x600",
-        "translations": {
-            "en": {
-                "name": "Bruschetta Trio",
-                "description": "Three varieties: classic tomato basil, mushroom truffle, and roasted pepper"
-            },
-            "el": {
-                "name": "Τρίο Μπρουσκέτας",
-                "description": "Τρεις ποικιλίες: κλασική ντομάτα βασιλικό, μανιτάρι τρούφα και ψητή πιπεριά"
-            },
-            "it": {
-                "name": "Trio di Bruschette",
-                "description": "Tre varietà: pomodoro basilico classico, funghi tartufo e peperone arrostito"
-            }
-        }
-    },
-    {
-        "id": "app-2",
-        "price": 14.00,
-        "category": "appetizers",
-        "image": "https://placehold.co/600x600",
-        "translations": {
-            "en": {
-                "name": "Calamari Fritti",
-                "description": "Crispy fried calamari with lemon aioli and marinara sauce"
-            },
-            "el": {
-                "name": "Καλαμαράκια Τηγανητά",
-                "description": "Τραγανά τηγανητά καλαμαράκια με λεμόνι αϊολί και σάλτσα μαρινάρα"
-            },
-            "it": {
-                "name": "Calamari Fritti",
-                "description": "Calamari fritti croccanti con aioli al limone e salsa marinara"
-            }
-        }
-    },
-    {
-        "id": "app-3",
-        "price": 11.00,
-        "category": "appetizers",
-        "dietary": [
-            "vegetarian",
-            "gluten-free"
-        ],
-        "translations": {
-            "en": {
-                "name": "Caprese Salad",
-                "description": "Fresh mozzarella, heirloom tomatoes, basil, balsamic reduction"
-            },
-            "el": {
-                "name": "Σαλάτα Καπρέζε",
-                "description": "Φρέσκια μοτσαρέλα, ντομάτες, βασιλικός, βαλσάμικο"
-            },
-            "it": {
-                "name": "Insalata Caprese",
-                "description": "Mozzarella fresca, pomodori, basilico, riduzione balsamica"
-            }
-        }
-    },
-    {
-        "id": "app-4",
-        "price": 10.50,
-        "category": "appetizers",
-        "dietary": [
-            "vegetarian"
-        ],
-        "spicyLevel": 2,
-        "translations": {
-            "en": {
-                "name": "Crispy Cauliflower",
-                "description": "Buffalo-spiced cauliflower with blue cheese dip"
-            },
-            "el": {
-                "name": "Τραγανό Κουνουπίδι",
-                "description": "Καυτερό κουνουπίδι με σάλτσα μπλε τυρί"
-            },
-            "it": {
-                "name": "Cavolfiore Croccante",
-                "description": "Cavolfiore piccante con salsa al formaggio blu"
-            }
-        }
-    },
-    {
-        "id": "main-1",
-        "price": 38.00,
-        "category": "mains",
-        "translations": {
-            "en": {
-                "name": "Grilled Ribeye Steak",
-                "description": "12oz ribeye with garlic butter, roasted vegetables, and truffle mashed potatoes"
-            },
-            "el": {
-                "name": "Ριμπάι Στη Σχάρα",
-                "description": "Ριμπάι 340γρ με βούτυρο σκόρδου, ψητά λαχανικά και πουρέ πατάτας με τρούφα"
-            },
-            "it": {
-                "name": "Bistecca di Ribeye alla Griglia",
-                "description": "Ribeye da 340g con burro all'aglio, verdure arrostite e purè di patate al tartufo"
-            }
-        }
-    },
-    {
-        "id": "main-2",
-        "price": 34.00,
-        "category": "mains",
-        "translations": {
-            "en": {
-                "name": "Herb-Crusted Lamb Chops",
-                "description": "Three lamb chops with rosemary jus, asparagus, and fingerling potatoes"
-            },
-            "el": {
-                "name": "Παϊδάκια Αρνιού με Βότανα",
-                "description": "Τρία παϊδάκια με σάλτσα δεντρολίβανου, σπαράγγια και πατάτες"
-            },
-            "it": {
-                "name": "Costolette d'Agnello alle Erbe",
-                "description": "Tre costolette con jus al rosmarino, asparagi e patate novelle"
-            }
-        }
-    },
-    {
-        "id": "main-3",
-        "price": 24.00,
-        "category": "mains",
-        "dietary": [
-            "gluten-free"
-        ],
-        "translations": {
-            "en": {
-                "name": "Pan-Seared Chicken",
-                "description": "Chicken breast with lemon caper sauce, seasonal vegetables"
-            },
-            "el": {
-                "name": "Κοτόπουλο στο Τηγάνι",
-                "description": "Στήθος κοτόπουλου με σάλτσα λεμονιού και κάπαρης, εποχιακά λαχανικά"
-            },
-            "it": {
-                "name": "Pollo in Padella",
-                "description": "Petto di pollo con salsa al limone e capperi, verdure di stagione"
-            }
-        }
-    },
-    {
-        "id": "main-4",
-        "price": 22.00,
-        "category": "mains",
-        "dietary": [
-            "vegetarian"
-        ],
-        "translations": {
-            "en": {
-                "name": "Vegetable Wellington",
-                "description": "Roasted vegetables and mushrooms in puff pastry with red wine reduction"
-            },
-            "el": {
-                "name": "Ουέλινγκτον Λαχανικών",
-                "description": "Ψητά λαχανικά και μανιτάρια σε σφολιάτα με σάλτσα κόκκινου κρασιού"
-            },
-            "it": {
-                "name": "Wellington di Verdure",
-                "description": "Verdure arrostite e funghi in pasta sfoglia con riduzione di vino rosso"
-            }
-        }
-    },
-    {
-        "id": "pasta-1",
-        "price": 28.00,
-        "category": "pasta",
-        "translations": {
-            "en": {
-                "name": "Lobster Ravioli",
-                "description": "House-made ravioli with lobster filling in creamy tomato vodka sauce"
-            },
-            "el": {
-                "name": "Ραβιόλι με Αστακό",
-                "description": "Σπιτικά ραβιόλι με γέμιση αστακού σε κρεμώδη σάλτσα ντομάτας βότκα"
-            },
-            "it": {
-                "name": "Ravioli all'Astice",
-                "description": "Ravioli fatti in casa con ripieno di astice in cremosa salsa di pomodoro e vodka"
-            }
-        }
-    },
-    {
-        "id": "pasta-2",
-        "price": 19.00,
-        "category": "pasta",
-        "translations": {
-            "en": {
-                "name": "Spaghetti Carbonara",
-                "description": "Classic Roman carbonara with guanciale, eggs, pecorino, black pepper"
-            },
-            "el": {
-                "name": "Σπαγγέτι Καρμπονάρα",
-                "description": "Κλασική ρωμαϊκή καρμπονάρα με γουαντσιάλε, αυγά, πεκορίνο, μαύρο πιπέρι"
-            },
-            "it": {
-                "name": "Spaghetti alla Carbonara",
-                "description": "Carbonara romana classica con guanciale, uova, pecorino, pepe nero"
-            }
-        }
-    },
-    {
-        "id": "pasta-3",
-        "price": 16.00,
-        "category": "pasta",
-        "dietary": [
-            "vegetarian"
-        ],
-        "spicyLevel": 3,
-        "translations": {
-            "en": {
-                "name": "Penne Arrabbiata",
-                "description": "Spicy tomato sauce with garlic and fresh basil"
-            },
-            "el": {
-                "name": "Πέννε Αραμπιάτα",
-                "description": "Καυτερή σάλτσα ντομάτας με σκόρδο και φρέσκο βασιλικό"
-            },
-            "it": {
-                "name": "Penne all'Arrabbiata",
-                "description": "Salsa di pomodoro piccante con aglio e basilico fresco"
-            }
-        }
-    },
-    {
-        "id": "pasta-4",
-        "price": 23.00,
-        "category": "pasta",
-        "dietary": [
-            "vegetarian"
-        ],
-        "translations": {
-            "en": {
-                "name": "Mushroom Truffle Fettuccine",
-                "description": "Fresh fettuccine with wild mushrooms, cream, and truffle oil"
-            },
-            "el": {
-                "name": "Φετουτσίνι με Μανιτάρια και Τρούφα",
-                "description": "Φρέσκα φετουτσίνι με άγρια μανιτάρια, κρέμα και λάδι τρούφας"
-            },
-            "it": {
-                "name": "Fettuccine ai Funghi e Tartufo",
-                "description": "Fettuccine fresche con funghi selvatici, panna e olio al tartufo"
-            }
-        }
-    },
-    {
-        "id": "sea-1",
-        "price": 36.00,
-        "category": "seafood",
-        "translations": {
-            "en": {
-                "name": "Chilean Sea Bass",
-                "description": "Miso-glazed sea bass with bok choy and jasmine rice"
-            },
-            "el": {
-                "name": "Λαβράκι Χιλής",
-                "description": "Λαβράκι με γλάσο μίσο, μποκ τσόι και ρύζι γιασμίν"
-            },
-            "it": {
-                "name": "Branzino Cileno",
-                "description": "Branzino glassato al miso con bok choy e riso al gelsomino"
-            }
-        }
-    },
-    {
-        "id": "sea-2",
-        "price": 26.00,
-        "category": "seafood",
-        "translations": {
-            "en": {
-                "name": "Jumbo Shrimp Scampi",
-                "description": "Garlic butter white wine sauce, linguine, lemon"
-            },
-            "el": {
-                "name": "Γαρίδες Σκάμπι",
-                "description": "Σάλτσα βουτύρου σκόρδου λευκού κρασιού, λινγκουίνι, λεμόνι"
-            },
-            "it": {
-                "name": "Gamberoni alla Scampi",
-                "description": "Salsa di burro all'aglio e vino bianco, linguine, limone"
-            }
-        }
-    },
-    {
-        "id": "sea-3",
-        "price": 27.00,
-        "category": "seafood",
-        "dietary": [
-            "gluten-free"
-        ],
-        "translations": {
-            "en": {
-                "name": "Grilled Salmon",
-                "description": "Atlantic salmon with dill sauce, roasted vegetables"
-            },
-            "el": {
-                "name": "Σολομός στη Σχάρα",
-                "description": "Σολομός Ατλαντικού με σάλτσα άνηθου, ψητά λαχανικά"
-            },
-            "it": {
-                "name": "Salmone alla Griglia",
-                "description": "Salmone atlantico con salsa all'aneto, verdure arrostite"
-            }
-        }
-    },
-    {
-        "id": "sea-4",
-        "price": 32.00,
-        "category": "seafood",
-        "spicyLevel": 1,
-        "translations": {
-            "en": {
-                "name": "Seafood Paella",
-                "description": "Saffron rice with mussels, clams, shrimp, and chorizo"
-            },
-            "el": {
-                "name": "Παέγια Θαλασσινών",
-                "description": "Ρύζι με σαφράν με μύδια, αχιβάδες, γαρίδες και τσορίθο"
-            },
-            "it": {
-                "name": "Paella di Mare",
-                "description": "Riso allo zafferano con cozze, vongole, gamberi e chorizo"
-            }
-        }
-    },
-    {
-        "id": "dess-1",
-        "price": 9.00,
-        "category": "desserts",
-        "translations": {
-            "en": {
-                "name": "Tiramisu",
-                "description": "Classic Italian dessert with espresso-soaked ladyfingers and mascarpone"
-            },
-            "el": {
-                "name": "Τιραμισού",
-                "description": "Κλασικό ιταλικό επιδόρπιο με μπισκότα εσπρέσο και μασκαρπόνε"
-            },
-            "it": {
-                "name": "Tiramisù",
-                "description": "Classico dolce italiano con savoiardi imbevuti di espresso e mascarpone"
-            }
-        }
-    },
-    {
-        "id": "dess-2",
-        "price": 10.00,
-        "category": "desserts",
-        "translations": {
-            "en": {
-                "name": "Chocolate Lava Cake",
-                "description": "Warm chocolate cake with molten center, vanilla ice cream"
-            },
-            "el": {
-                "name": "Κέικ Σοκολάτας με Λάβα",
-                "description": "Ζεστό κέικ σοκολάτας με λιωμένο κέντρο, παγωτό βανίλια"
-            },
-            "it": {
-                "name": "Torta al Cioccolato con Cuore Fondente",
-                "description": "Torta al cioccolato calda con centro fuso, gelato alla vaniglia"
-            }
-        }
-    },
-    {
-        "id": "dess-3",
-        "price": 8.50,
-        "category": "desserts",
-        "dietary": [
-            "gluten-free"
-        ],
-        "translations": {
-            "en": {
-                "name": "Panna Cotta",
-                "description": "Vanilla panna cotta with mixed berry compote"
-            },
-            "el": {
-                "name": "Πάνα Κότα",
-                "description": "Πάνα κότα βανίλιας με κομπόστα μούρων"
-            },
-            "it": {
-                "name": "Panna Cotta",
-                "description": "Panna cotta alla vaniglia con composta di frutti di bosco"
-            }
-        }
-    },
-    {
-        "id": "dess-4",
-        "price": 9.50,
-        "category": "desserts",
-        "translations": {
-            "en": {
-                "name": "Lemon Tart",
-                "description": "Tangy lemon curd in buttery pastry with raspberry coulis"
-            },
-            "el": {
-                "name": "Τάρτα Λεμονιού",
-                "description": "Ξινή κρέμα λεμονιού σε βουτυρωτή ζύμη με κούλι βατόμουρου"
-            },
-            "it": {
-                "name": "Crostata al Limone",
-                "description": "Crema al limone aspra in pasta frolla burrosa con coulis di lamponi"
-            }
-        }
-    },
-    {
-        "id": "bev-1",
-        "price": 5.00,
-        "category": "beverages",
-        "image": "https://placehold.co/600x400",
-        "translations": {
-            "en": {
-                "name": "Fresh Squeezed Lemonade",
-                "description": "House-made with organic lemons and mint"
-            },
-            "el": {
-                "name": "Φρέσκια Λεμονάδα",
-                "description": "Σπιτική με βιολογικά λεμόνια και μέντα"
-            },
-            "it": {
-                "name": "Limonata Fresca Spremuta",
-                "description": "Fatta in casa con limoni biologici e menta"
-            }
-        }
-    },
-    {
-        "id": "bev-2",
-        "price": 4.50,
-        "category": "beverages",
-        "translations": {
-            "en": {
-                "name": "Italian Soda",
-                "description": "Choice of flavor: raspberry, peach, or vanilla"
-            },
-            "el": {
-                "name": "Ιταλική Σόδα",
-                "description": "Επιλογή γεύσης: βατόμουρο, ροδάκινο ή βανίλια"
-            },
-            "it": {
-                "name": "Soda Italiana",
-                "description": "Scelta di gusto: lampone, pesca o vaniglia"
-            }
-        }
-    },
-    {
-        "id": "bev-3",
-        "price": 3.50,
-        "category": "beverages",
-        "translations": {
-            "en": {
-                "name": "Iced Tea (Sweet or Unsweet)",
-                "description": "Fresh brewed daily"
-            },
-            "el": {
-                "name": "Παγωμένο Τσάι (Γλυκό ή Άγλυκο)",
-                "description": "Φρέσκο καθημερινά"
-            },
-            "it": {
-                "name": "Tè Freddo (Dolce o Non Dolce)",
-                "description": "Preparato fresco ogni giorno"
-            }
-        }
-    },
-    {
-        "id": "bev-4",
-        "price": 4.00,
-        "category": "beverages",
-        "translations": {
-            "en": {
-                "name": "Espresso",
-                "description": "Double shot of premium Italian espresso"
-            },
-            "el": {
-                "name": "Εσπρέσο",
-                "description": "Διπλό σοτ από premium ιταλικό εσπρέσο"
-            },
-            "it": {
-                "name": "Espresso",
-                "description": "Doppio shot di espresso italiano premium"
-            }
-        }
-    },
-    {
-        "id": "bev-5",
-        "price": 5.50,
-        "category": "beverages",
-        "image": "https://placehold.co/600x400",
-        "translations": {
-            "en": {
-                "name": "Cappuccino",
-                "description": "Espresso with steamed milk and foam"
-            },
-            "el": {
-                "name": "Καπουτσίνο",
-                "description": "Εσπρέσο με ατμοποιημένο γάλα και αφρό"
-            },
-            "it": {
-                "name": "Cappuccino",
-                "description": "Espresso con latte vaporizzato e schiuma"
-            }
-        }
+  {
+    "id": "coffee-espresso",
+    "price": 2.2,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:espresso?c=1787814335",
+    "translations": {
+      "en": {
+        "name": "Espresso",
+        "description": "Rich and aromatic single shot of authentic espresso."
+      },
+      "el": {
+        "name": "Εσπρέσο",
+        "description": "Κλασικός ζεστός καφές εσπρέσο με πλούσιο καϊμάκι και έντονο άρωμα."
+      },
+      "it": {
+        "name": "Caffè Espresso",
+        "description": "Espresso classico italiano caldo, ricco d'aroma e crema dorata e persistente."
+      }
     }
+  },
+  {
+    "id": "coffee-espresso-lungo",
+    "price": 2.2,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:espresso-lungo?c=1787832835",
+    "translations": {
+      "en": {
+        "name": "Espresso Lungo",
+        "description": "Extended espresso extraction with balanced intensity and delicate aroma."
+      },
+      "el": {
+        "name": "Εσπρέσο λούνγκο",
+        "description": "Ζεστός εσπρέσο με μεγαλύτερη εκχύλιση νερού για πιο απαλή ένταση."
+      },
+      "it": {
+        "name": "Caffè Espresso Lungo",
+        "description": "Espresso estratto con maggiore quantità d'acqua per un sapore morbido e prolungato."
+      }
+    }
+  },
+  {
+    "id": "coffee-espresso-americano",
+    "price": 2.2,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:espresso-americano?c=1786617779",
+    "translations": {
+      "en": {
+        "name": "Espresso Americano",
+        "description": "Double shot of rich espresso combined with hot water for a smooth body."
+      },
+      "el": {
+        "name": "Εσπρέσο αμερικάνο",
+        "description": "Διπλή δόση εσπρέσο αραιωμένη με ζεστό νερό."
+      },
+      "it": {
+        "name": "Caffè Americano",
+        "description": "Doppio espresso allungato con acqua calda fumante per una tazza leggera e distesa."
+      }
+    }
+  },
+  {
+    "id": "coffee-espresso-macchiato",
+    "price": 2.7,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:espresso-macchiato?c=1727177736",
+    "translations": {
+      "en": {
+        "name": "Espresso Macchiato",
+        "description": "Hot espresso shot marked with a delicate dollop of warm milk foam."
+      },
+      "el": {
+        "name": "Εσπρέσο μακιάτο",
+        "description": "Ζεστός εσπρέσο με μια απαλή δόση από ζεστό αφρόγαλα."
+      },
+      "it": {
+        "name": "Caffè Espresso Macchiato Caldo",
+        "description": "Espresso classico macchiato con una morbida noce di schiuma di latte caldo."
+      }
+    }
+  },
+  {
+    "id": "coffee-freddo-espresso",
+    "price": 2.5,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:freddo-espresso?c=1788763864",
+    "translations": {
+      "en": {
+        "name": "Freddo Espresso",
+        "description": "Double shot of hot espresso blended over ice for a smooth iced coffee."
+      },
+      "el": {
+        "name": "Φρέντο εσπρέσο",
+        "description": "Διπλή δόση ζεστού εσπρέσο χτυπημένη με πάγο για δροσερή, βελούδινη υφή."
+      },
+      "it": {
+        "name": "Freddo Espresso Shakerato",
+        "description": "Doppio espresso shakerato con ghiaccio."
+      }
+    }
+  },
+  {
+    "id": "coffee-cappuccino",
+    "price": 2.7,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:cappuccino?c=1789543763",
+    "translations": {
+      "en": {
+        "name": "Cappuccino",
+        "description": "Rich espresso crowned with velvety steamed milk foam."
+      },
+      "el": {
+        "name": "Καπουτσίνο",
+        "description": "Δυνατός ζεστός εσπρέσο με πλούσιο, βελούδινο ζεστό αφρόγαλα."
+      },
+      "it": {
+        "name": "Cappuccino Tradizionale",
+        "description": "Espresso italiano caldo con densa e setosa schiuma di latte montata a vapore."
+      }
+    }
+  },
+  {
+    "id": "coffee-cappuccino-vegan",
+    "price": 3.2,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:cappuccino-vegan?c=1758719639",
+    "translations": {
+      "en": {
+        "name": "Vegan Cappuccino",
+        "description": "Rich espresso combined with smooth plant-based frothed milk."
+      },
+      "el": {
+        "name": "Καπουτσίνο με φυτικό γάλα",
+        "description": "Ζεστός εσπρέσο με φυτικό γάλα της επιλογής σας."
+      },
+      "it": {
+        "name": "Cappuccino con Latte Vegetale",
+        "description": "Espresso con morbida schiuma di latte vegetale a scelta tra avena, soia o mandorla."
+      }
+    }
+  },
+  {
+    "id": "coffee-freddo-cappuccino",
+    "price": 2.7,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:freddo-cappuccino?c=1765304277",
+    "translations": {
+      "en": {
+        "name": "Freddo Cappuccino",
+        "description": "Iced shaken espresso topped with a thick layer of cold frothed milk foam."
+      },
+      "el": {
+        "name": "Φρέντο καπουτσίνο",
+        "description": "Παγωμένος εσπρέσο με πλούσιο, ανάλαφρο κρύο αφρόγαλα."
+      },
+      "it": {
+        "name": "Freddo Cappuccino con Crema di Latte",
+        "description": "Doppio espresso con ghiaccio sormontato da soffice schiuma di latte montata a freddo."
+      }
+    }
+  },
+  {
+    "id": "coffee-flat-white",
+    "price": 2.7,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:flat-white?c=1782744771",
+    "translations": {
+      "en": {
+        "name": "Flat White",
+        "description": "Double ristretto espresso expertly blended with finely textured microfoam milk."
+      },
+      "el": {
+        "name": "Φλατ γουάιτ",
+        "description": "Διπλή δόση ριστρέτο εσπρέσο με βελούδινο αφρόγαλα."
+      },
+      "it": {
+        "name": "Caffè Flat White",
+        "description": "Doppio ristretto di caffè espresso unito a setosa microschiuma di latte caldo."
+      }
+    }
+  },
+  {
+    "id": "coffee-cappuccino-latte",
+    "price": 2.7,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:cappuccino-latte?c=1759225965",
+    "translations": {
+      "en": {
+        "name": "Caffè Latte",
+        "description": "Smooth espresso combined with generous steamed hot milk and light froth."
+      },
+      "el": {
+        "name": "Καπουτσίνο λάτε",
+        "description": "Εσπρέσο με ζεστό γάλα και διακριτική στρώση αφρού."
+      },
+      "it": {
+        "name": "Caffellatte Caldo",
+        "description": "Caffè espresso delicato con abbondante latte caldo e un leggero velo di schiuma."
+      }
+    }
+  },
+  {
+    "id": "coffee-freddo-cappuccino-latte",
+    "price": 3.2,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:freddo-cappuccino-latte?c=1776368137",
+    "translations": {
+      "en": {
+        "name": "Iced Caffè Latte",
+        "description": "Chilled milk and ice topped with espresso for a creamy, refreshing iced coffee."
+      },
+      "el": {
+        "name": "Φρέντο καπουτσίνο λάτε",
+        "description": "Παγωμένος καφές λάτε με κρύο γάλα, πάγο και εσπρέσο."
+      },
+      "it": {
+        "name": "Caffellatte Freddo con Ghiaccio",
+        "description": "Latte freddo con cubetti di ghiaccio ed espresso, cremoso e dissetante."
+      }
+    }
+  },
+  {
+    "id": "coffee-double-shot-caramel",
+    "price": 3.7,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Double Shot Caramel Freddo Latte",
+        "description": "Freddo cappuccino latte with a double shot of espresso and velvety caramel mousse."
+      },
+      "el": {
+        "name": "Διπλό φρέντο λάτε με καραμέλα",
+        "description": "Παγωμένος καφές λάτε με διπλή δόση εσπρέσο και πλούσια μους καραμέλας."
+      },
+      "it": {
+        "name": "Caffellatte Freddo Doppio al Caramello",
+        "description": "Caffellatte freddo con doppio espresso e golosa mousse vellutata al caramello."
+      }
+    }
+  },
+  {
+    "id": "coffee-caramel-macchiato",
+    "price": 3.7,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Caramel Macchiato",
+        "description": "Steamed milk marked with espresso and drizzled with sweet butter caramel."
+      },
+      "el": {
+        "name": "Καραμέλ μακιάτο",
+        "description": "Ζεστό γάλα με εσπρέσο και σιρόπι γλυκιάς καραμέλας."
+      },
+      "it": {
+        "name": "Latte Macchiato Caldo al Caramello",
+        "description": "Latte caldo montato a vapore, macchiato con espresso e guarnito con caramello dorato."
+      }
+    }
+  },
+  {
+    "id": "coffee-nes",
+    "price": 2.4,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:nes?c=1787578988",
+    "translations": {
+      "en": {
+        "name": "Nescafé Hot",
+        "description": "Classic hot instant coffee, warming and aromatic."
+      },
+      "el": {
+        "name": "Νες ζεστός",
+        "description": "Κλασικός ζεστός στιγμιαίος καφές με πλούσιο άρωμα."
+      },
+      "it": {
+        "name": "Caffè Solubile Nescafé Caldo",
+        "description": "Classico caffè istantaneo servito caldo, aromatico e confortevole."
+      }
+    }
+  },
+  {
+    "id": "coffee-frappe",
+    "price": 2.4,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:frappe?c=1787579224",
+    "translations": {
+      "en": {
+        "name": "Frappé",
+        "description": "Traditional Greek iced instant coffee frothed with ice water for a thick foam."
+      },
+      "el": {
+        "name": "Φραπέ παγωμένος",
+        "description": "Ο κλασικός ελληνικός παγωμένος στιγμιαίος καφές με αφρό και πάγο."
+      },
+      "it": {
+        "name": "Caffè Frappé Greco Ghiacciato",
+        "description": "Tipico caffè istantaneo greco freddo montato ad alta densità con cubetti di ghiaccio."
+      }
+    }
+  },
+  {
+    "id": "coffee-filter",
+    "price": 2.5,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:philtrou?c=1777057825",
+    "translations": {
+      "en": {
+        "name": "Filter Coffee",
+        "description": "Freshly brewed aromatic French drip filter coffee."
+      },
+      "el": {
+        "name": "Καφές φίλτρου",
+        "description": "Φρεσκοκομμένος αρωματικός γαλλικός καφές φίλτρου."
+      },
+      "it": {
+        "name": "Caffè Filtro all'Americana",
+        "description": "Caffè filtro preparato al momento, leggero, aromatico e profumato."
+      }
+    }
+  },
+  {
+    "id": "coffee-greek",
+    "price": 1.7,
+    "category": "coffees",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:ellinikos?c=1726230394",
+    "translations": {
+      "en": {
+        "name": "Greek Coffee",
+        "description": "Authentic Greek coffee brewed slowly in a traditional briki pot."
+      },
+      "el": {
+        "name": "Ελληνικός καφές",
+        "description": "Παραδοσιακός ελληνικός καφές ψημένος αργά στο μπρίκι με πλούσιο καϊμάκι."
+      },
+      "it": {
+        "name": "Caffè Tradizionale Greco nel Pentolino",
+        "description": "Caffè tipico greco macinato finissimo ed estratto nel tradizionale bricco di rame."
+      }
+    }
+  },
+  {
+    "id": "chocolate-classic",
+    "price": 3.0,
+    "category": "chocolates",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:sokolata?c=1789543754",
+    "translations": {
+      "en": {
+        "name": "Classic Hot Chocolate",
+        "description": "Rich, creamy chocolate beverage with a deep cocoa taste, hot or iced."
+      },
+      "el": {
+        "name": "Σοκολάτα ρόφημα",
+        "description": "Πλούσιο και κρεμώδες ρόφημα σοκολάτας, σερβίρεται ζεστό ή κρύο."
+      },
+      "it": {
+        "name": "Cioccolata Calda Tradizionale",
+        "description": "Vellutata e densa bevanda al cioccolato al latte, ricca d'aroma, servita calda o fredda."
+      }
+    }
+  },
+  {
+    "id": "chocolate-white",
+    "price": 3.0,
+    "category": "chocolates",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:sokolata-leuki?c=1773647298",
+    "translations": {
+      "en": {
+        "name": "White Chocolate",
+        "description": "Sweet, buttery white chocolate beverage with a smooth texture."
+      },
+      "el": {
+        "name": "Λευκή σοκολάτα",
+        "description": "Βελούδινο ρόφημα γλυκιάς λευκής σοκολάτας με απαλή υφή."
+      },
+      "it": {
+        "name": "Cioccolata Bianca Vellutata",
+        "description": "Dolce e avvolgente bevanda cremosa al pregiato cioccolato bianco."
+      }
+    }
+  },
+  {
+    "id": "chocolate-salted-caramel",
+    "price": 3.0,
+    "category": "chocolates",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:sokolata-salted-caramel?c=1789543754",
+    "translations": {
+      "en": {
+        "name": "Salted Caramel Chocolate",
+        "description": "Creamy chocolate infused with gourmet salted caramel butter notes."
+      },
+      "el": {
+        "name": "Σοκολάτα με αλατισμένη καραμέλα",
+        "description": "Απολαυστικό ρόφημα σοκολάτας με πλούσια γεύση αλατισμένης καραμέλας."
+      },
+      "it": {
+        "name": "Cioccolata al Caramello Salato",
+        "description": "Golosa bevanda al cacao arricchita da note di caramello salato al burro."
+      }
+    }
+  },
+  {
+    "id": "chocolate-bitter",
+    "price": 3.0,
+    "category": "chocolates",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:sokolata-bitter?c=1789543754",
+    "translations": {
+      "en": {
+        "name": "Dark Bitter Chocolate",
+        "description": "Intense dark chocolate beverage crafted with high quality cocoa."
+      },
+      "el": {
+        "name": "Μαύρη σοκολάτα",
+        "description": "Ρόφημα μαύρης σοκολάτας με πλούσια γεύση κακάο."
+      },
+      "it": {
+        "name": "Cioccolata Fondente",
+        "description": "Intensa bevanda al cacao fondente amaro."
+      }
+    }
+  },
+  {
+    "id": "chocolate-lila-pause",
+    "price": 3.0,
+    "category": "chocolates",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:sokolata-lila-pause?c=1755006953",
+    "translations": {
+      "en": {
+        "name": "Lila Pause Chocolate",
+        "description": "Playful chocolate drink infused with sweet strawberry flavor and crispy pearls."
+      },
+      "el": {
+        "name": "Σοκολάτα Lila Pause",
+        "description": "Ρόφημα σοκολάτας με νότες φράουλας και τραγανούς κόκκους δημητριακών."
+      },
+      "it": {
+        "name": "Cioccolata Lila Pause con Fragola & Crispies",
+        "description": "Sfiziosa cioccolata golosa con sentori di fragola e perle croccanti di cereali."
+      }
+    }
+  },
+  {
+    "id": "chocolate-bueno",
+    "price": 3.0,
+    "category": "chocolates",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:sokolata-bueno?c=1789543754",
+    "translations": {
+      "en": {
+        "name": "Bueno Hazelnut Chocolate",
+        "description": "Decadent chocolate beverage blended with creamy Kinder Bueno hazelnut paste."
+      },
+      "el": {
+        "name": "Σοκολάτα Bueno",
+        "description": "Απολαυστικό ρόφημα σοκολάτας με πραλίνα φουντουκιού τύπου Bueno."
+      },
+      "it": {
+        "name": "Cioccolata alla Crema di Nocciole Bueno",
+        "description": "Cremosa bevanda al cacao al sapore inconfondibile di crema alle nocciole wafer Bueno."
+      }
+    }
+  },
+  {
+    "id": "chocolate-stevia",
+    "price": 3.0,
+    "category": "chocolates",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:sokolata-stevia?c=1789543754",
+    "translations": {
+      "en": {
+        "name": "Stevia Chocolate",
+        "description": "Rich chocolate beverage naturally sweetened with stevia, zero added sugar."
+      },
+      "el": {
+        "name": "Σοκολάτα με στέβια",
+        "description": "Ρόφημα σοκολάτας με φυσικό γλυκαντικό στέβια, χωρίς ζάχαρη."
+      },
+      "it": {
+        "name": "Cioccolata con Stevia",
+        "description": "Bevanda al cacao dolcificata con foglie di stevia, senza zuccheri aggiunti."
+      }
+    }
+  },
+  {
+    "id": "juice-fresh-orange",
+    "price": 3.0,
+    "category": "juices",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:phusikos-xumos-portokali?c=1789637761",
+    "translations": {
+      "en": {
+        "name": "Fresh Orange Juice",
+        "description": "100% freshly squeezed juice from sweet, sun-ripened Greek oranges."
+      },
+      "el": {
+        "name": "Φυσικός χυμός πορτοκάλι",
+        "description": "100% Φρεσκοστυμμένος χυμός από εκλεκτά ελληνικά πορτοκάλια."
+      },
+      "it": {
+        "name": "Spremuta Fresca di Arance Greche",
+        "description": "Spremuta al 100% naturale di arance fresche maturate al sole, ricca di vitamina C."
+      }
+    }
+  },
+  {
+    "id": "juice-super-special",
+    "price": 4.0,
+    "category": "juices",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:phusikos-xumos-super-special?c=1788193162",
+    "translations": {
+      "en": {
+        "name": "Mixed Fresh Juice",
+        "description": "Freshly squeezed blend of orange, banana, pear, apple, and carrot."
+      },
+      "el": {
+        "name": "Φυσικός ανάμεικτος χυμός",
+        "description": "Φρέσκος χυμός με πορτοκάλι, μπανάνα, αχλάδι, μήλο και καρότο."
+      },
+      "it": {
+        "name": "Centrifuga di Frutta Mista",
+        "description": "Centrifuga fresca con arancia, banana, pera, mela e carota."
+      }
+    }
+  },
+  {
+    "id": "juice-homemade-lemonade",
+    "price": 3.0,
+    "category": "juices",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:spitiki-lemonada?c=1778744948",
+    "translations": {
+      "en": {
+        "name": "Homemade Lemonade",
+        "description": "Refreshing traditional artisan lemonade prepared with fresh lemons."
+      },
+      "el": {
+        "name": "Σπιτική λεμονάδα",
+        "description": "Παραδοσιακή δροσιστική χειροποίητη λεμονάδα με φρέσκα λεμόνια και δυόσμο."
+      },
+      "it": {
+        "name": "Limonata Tradizionale Fatta in Casa",
+        "description": "Rinfrescante limonata artigianale preparata con limoni freschi ed estratto di menta."
+      }
+    }
+  },
+  {
+    "id": "tea-autumn-sonata",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-phthinopwrini-sonata?c=1788186803",
+    "translations": {
+      "en": {
+        "name": "Autumn Sonata Black Tea",
+        "description": "Black tea blend with toasted almonds, warm vanilla, and hazelnut."
+      },
+      "el": {
+        "name": "Τσάι Φθινοπωρινή Σονάτα",
+        "description": "Μαύρο τσάι αρωματισμένο με καβουρδισμένο αμύγδαλο, βανίλια και φουντούκι."
+      },
+      "it": {
+        "name": "Tè Nero Sonata d'Autunno",
+        "description": "Tè nero aromatizzato con mandorle tostate, vaniglia e nocciola."
+      }
+    }
+  },
+  {
+    "id": "tea-russian-nights",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-rwsikes-nuxtes?c=1770930705",
+    "translations": {
+      "en": {
+        "name": "Russian Nights Black Tea",
+        "description": "Black tea infused with vibrant orange, lemon zest, and pink grapefruit."
+      },
+      "el": {
+        "name": "Τσάι Ρώσικες Νύχτες",
+        "description": "Μαύρο τσάι με φυσικό πορτοκάλι, λεμόνι και γκρέιπφρουτ."
+      },
+      "it": {
+        "name": "Tè Nero Notti Russe",
+        "description": "Miscela intensa di tè nero con scorze fresche di arancia, limone e pompelmo rosa."
+      }
+    }
+  },
+  {
+    "id": "tea-lady-grey",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-lady-grey?c=1770930705",
+    "translations": {
+      "en": {
+        "name": "Lady Grey Black Tea",
+        "description": "Refined black tea accented with cornflower petals and fragrant bergamot."
+      },
+      "el": {
+        "name": "Τσάι Lady Grey",
+        "description": "Εκλεπτυσμένο μαύρο τσάι με άνθη κύανου και περγαμόντο."
+      },
+      "it": {
+        "name": "Tè Nero Lady Grey",
+        "description": "Elegante tè nero arricchito con petali azzurri di fiordaliso ed essenza di bergamotto."
+      }
+    }
+  },
+  {
+    "id": "tea-earl-grey-byron",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-earl-grey-lord-byron?c=1770930705",
+    "translations": {
+      "en": {
+        "name": "Earl Grey Lord Byron",
+        "description": "Traditional full-bodied black tea perfumed with pure bergamot oil."
+      },
+      "el": {
+        "name": "Τσάι Earl Grey Lord Byron",
+        "description": "Κλασικό μαύρο τσάι με άρωμα φυσικού περγαμόντου."
+      },
+      "it": {
+        "name": "Tè Nero Earl Grey Lord Byron",
+        "description": "Tè nero aromatico profumato con puro olio essenziale di bergamotto."
+      }
+    }
+  },
+  {
+    "id": "tea-indian-tale",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-indiko-paramuthi?c=1770930705",
+    "translations": {
+      "en": {
+        "name": "Indian Tale Green Tea",
+        "description": "Gentle green tea enriched with sweet caramel, coconut, and sliced almonds."
+      },
+      "el": {
+        "name": "Πράσινο τσάι Ινδικό Παραμύθι",
+        "description": "Αρωματικό πράσινο τσάι με καραμέλα, νιφάδες καρύδας και αμύγδαλο."
+      },
+      "it": {
+        "name": "Tè Verde Fiaba Indiana",
+        "description": "Tè verde delicato con note di caramello, scaglie di noce di cocco e mandorle."
+      }
+    }
+  },
+  {
+    "id": "tea-fragrant-bush",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-murwmenos-thamnos?c=1786617494",
+    "translations": {
+      "en": {
+        "name": "Fragrant Bush Spiced Green Tea",
+        "description": "Soothing green tea laced with orange peel, whole cloves, and cardamom."
+      },
+      "el": {
+        "name": "Πράσινο τσάι Μυρωμένος Θάμνος",
+        "description": "Πράσινο τσάι με φλούδες πορτοκαλιού, γαρίφαλο και κάρδαμο."
+      },
+      "it": {
+        "name": "Tè Verde Speziato all'Arancia",
+        "description": "Riscaldante tè verde con scorze d'arancia dolce, chiodi di garofano e cardamomo."
+      }
+    }
+  },
+  {
+    "id": "tea-santas-cookies",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-santa-s-cookies?c=1788186803",
+    "translations": {
+      "en": {
+        "name": "Santa's Cookies Green Tea",
+        "description": "Cozy green tea blended with cocoa beans, roasted hazelnuts, and sweet caramel."
+      },
+      "el": {
+        "name": "Πράσινο τσάι Μπισκότα Χριστουγέννων",
+        "description": "Πράσινο τσάι με σπόρους κακάο, τραγανό φουντούκι και άρωμα καραμέλας."
+      },
+      "it": {
+        "name": "Tè Verde ai Biscotti di Natale",
+        "description": "Tè verde goloso con granella di fave di cacao, nocciole e fragranza di biscotto caramellato."
+      }
+    }
+  },
+  {
+    "id": "tea-sakura",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-sakura?c=1788193231",
+    "translations": {
+      "en": {
+        "name": "Sakura Cherry & Spice Black Tea",
+        "description": "Black tea infused with ripe cherry, cinnamon, and pink peppercorns."
+      },
+      "el": {
+        "name": "Μαύρο τσάι Σακούρα",
+        "description": "Μαύρο τσάι με γλυκό κεράσι, κανέλα Κεϋλάνης και ροζ πιπέρι."
+      },
+      "it": {
+        "name": "Tè Nero Sakura alla Ciliegia",
+        "description": "Tè nero alla ciliegia matura, cannella e pepe rosa."
+      }
+    }
+  },
+  {
+    "id": "tea-red-square",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-kokkini-plateia?c=1770930622",
+    "translations": {
+      "en": {
+        "name": "Red Square Fruit Infusion",
+        "description": "Tangy, ruby-red infusion of dried cranberries, sweet apple pieces, and hibiscus."
+      },
+      "el": {
+        "name": "Αφέψημα φρούτων Κόκκινη Πλατεία",
+        "description": "Δροσιστικό κόκκινο αφέψημα χωρίς καφεΐνη με κράνμπερι, μήλο και ιβίσκο."
+      },
+      "it": {
+        "name": "Infuso ai Frutti Rossi Piazza Rossa",
+        "description": "Tisana priva di teina con mirtillo rosso, mela dolce e fiori di ibisco."
+      }
+    }
+  },
+  {
+    "id": "tea-relaxation",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-xalarwsis?c=1788186803",
+    "translations": {
+      "en": {
+        "name": "Relaxation Herbal Infusion",
+        "description": "Calming herbal tea of valerian root, soothing chamomile, and dried lavender flowers."
+      },
+      "el": {
+        "name": "Αφέψημα χαλάρωσης",
+        "description": "Ηρεμιστικό φυσικό μείγμα με βαλεριάνα, χαμομήλι και άνθη λεβάντας."
+      },
+      "it": {
+        "name": "Tisana Rilassante alla Valeriana & Lavanda",
+        "description": "Miscela distensiva naturale con radice di valeriana, camomilla dorata e fiori di lavanda."
+      }
+    }
+  },
+  {
+    "id": "tea-immune-support",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-anosopoiitikou?c=1788186803",
+    "translations": {
+      "en": {
+        "name": "Immune Support Lapacho Herbal Tea",
+        "description": "Fortifying herbal infusion made with lapacho bark, citrus orange, and vanilla."
+      },
+      "el": {
+        "name": "Αφέψημα τόνωσης ανοσοποιητικού",
+        "description": "Τονωτικό ρόφημα από φλοιό λαπάτσο, γλυκό πορτοκάλι και βανίλια."
+      },
+      "it": {
+        "name": "Tisana Tonica Difese Immunitarie al Lapacho",
+        "description": "Infuso rinvigorente con corteccia di lapacho sudamericano, scorza d'arancia e vaniglia."
+      }
+    }
+  },
+  {
+    "id": "tea-cold-relief",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-kruologimatos?c=1788186803",
+    "translations": {
+      "en": {
+        "name": "Cold Relief Herbal Infusion",
+        "description": "Warming herbal infusion with fiery ginger root, aromatic cardamom, and echinacea."
+      },
+      "el": {
+        "name": "Αφέψημα ανακούφισης κρυολογήματος",
+        "description": "Ζεστό αφέψημα με τζίντζερ, αρωματικό κάρδαμο και εχινάκεια."
+      },
+      "it": {
+        "name": "Tisana Sollievo Invernale con Zenzero & Echinacea",
+        "description": "Tisana balsamica con zenzero piccante, cardamomo aromatico ed echinacea protettiva."
+      }
+    }
+  },
+  {
+    "id": "tea-olympus-detox",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-olumpos-detox-bio?c=1786617494",
+    "translations": {
+      "en": {
+        "name": "Organic Olympus Detox Tea",
+        "description": "Certified organic wellness infusion combining wild fennel, melissa balm, and chamomile."
+      },
+      "el": {
+        "name": "Βιολογικό τσάι αποτοξίνωσης Ολύμπου",
+        "description": "Πιστοποιημένο βιολογικό αφέψημα με άγριο μάραθο, μελισσόχορτο και χαμομήλι."
+      },
+      "it": {
+        "name": "Tisana Biologica Depurativa del Monte Olimpo",
+        "description": "Infuso biologico con semi di finocchietto selvatico, melissa profumata e camomilla montana."
+      }
+    }
+  },
+  {
+    "id": "tea-mountain",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tsai-tou-bounou?c=1788186803",
+    "translations": {
+      "en": {
+        "name": "Greek Mountain Tea",
+        "description": "Wild-harvested Greek mountain herbal tea, rich in antioxidants, naturally caffeine-free."
+      },
+      "el": {
+        "name": "Ελληνικό τσάι του βουνού",
+        "description": "Παραδοσιακός σιδηρίτης, πλούσιος σε αντιοξειδωτικά χωρίς καφεΐνη."
+      },
+      "it": {
+        "name": "Tè Greco di Montagna",
+        "description": "Autentico tè di montagna ellenico raccolto a mano, privo di teina."
+      }
+    }
+  },
+  {
+    "id": "tea-peppermint",
+    "price": 2.5,
+    "category": "tea-herbal",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Peppermint Herbal Infusion",
+        "description": "Crisp and cooling infusion of pure aromatic Mediterranean peppermint leaves."
+      },
+      "el": {
+        "name": "Αφέψημα μέντας",
+        "description": "Δροσιστικό και χωνευτικό αφέψημα από αποξηραμένα φύλλα φυσικής μέντας."
+      },
+      "it": {
+        "name": "Infuso Fresco alla Menta Piperita",
+        "description": "Puro infuso aromatico digestivo a base di foglie selezionate di menta piperita."
+      }
+    }
+  },
+  {
+    "id": "breakfast-shakshuka",
+    "price": 7.0,
+    "category": "savory-breakfast",
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Shakshuka with Chorizo Sausage",
+        "description": "3 eggs gently poached in rich spiced tomato sauce with chorizo sausage. Served with toasted bread."
+      },
+      "el": {
+        "name": "Σακσούκα με χωριάτικο λουκάνικο",
+        "description": "3 αυγά ψημένα σε πλούσια σάλτσα ντομάτας με λουκάνικο τσορίθο και φρυγανισμένο ψωμί."
+      },
+      "it": {
+        "name": "Shakshuka con Uova & Salsiccia Chorizo",
+        "description": "3 uova in camicia cotte in salsa di pomodoro speziata con chorizo iberico e fette di pane tostato."
+      }
+    }
+  },
+  {
+    "id": "breakfast-eggs-bacon-brioche",
+    "price": 6.0,
+    "category": "savory-breakfast",
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Eggs & Bacon Brioche Toast",
+        "description": "Warm brioche toast topped with 2 eggs, smoked bacon, fresh avocado, melted gouda, and Dijon mayonnaise."
+      },
+      "el": {
+        "name": "Τοστ μπριός με αυγά & μπέικον",
+        "description": "Ψωμί μπριός με 2 αυγά, καπνιστό μπέικον, αβοκάντο, τυρί γκούντα και μαγιονέζα ντιζόν."
+      },
+      "it": {
+        "name": "Toast Brioche con Uova, Bacon & Avocado",
+        "description": "Pan brioche tostato con 2 uova, bacon croccante, avocado fresco, gouda fuso e maionese alla senape di Digione."
+      }
+    }
+  },
+  {
+    "id": "breakfast-fried-eggs-syglino",
+    "price": 6.0,
+    "category": "savory-breakfast",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:auga-tiganita?c=1706551710",
+    "translations": {
+      "en": {
+        "name": "Fried Eggs with Mani Syglino",
+        "description": "2 fried eggs over rustic bread gratin with melted mozzarella and traditional cured pork syglino from Mani."
+      },
+      "el": {
+        "name": "Αυγά τηγανητά με σύγκλινο Μάνης",
+        "description": "2 τηγανητά αυγά σε τραγανό ψωμί γκρατιναρισμένο με μοτσαρέλα και καπνιστό σύγκλινο Μάνης."
+      },
+      "it": {
+        "name": "Uova al Tegamino con Maiale Syglino di Mani",
+        "description": "2 uova al tegamino su crostone di pane gratinato con mozzarella e syglino affumicato di Mani."
+      }
+    }
+  },
+  {
+    "id": "breakfast-savory-pancakes",
+    "price": 7.0,
+    "category": "savory-breakfast",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:pancakes-almura?c=1776197601",
+    "translations": {
+      "en": {
+        "name": "Savory Pancakes with Turkey & Scrambled Eggs",
+        "description": "Fluffy stack of pancakes topped with cream cheese, sliced smoked turkey, and velvety scrambled eggs."
+      },
+      "el": {
+        "name": "Αλμυρές τηγανίτες με γαλοπούλα & αυγά",
+        "description": "Τηγανίτες με τυρί κρέμα, καπνιστή γαλοπούλα και αυγά στραπατσάδα."
+      },
+      "it": {
+        "name": "Pancake Salati con Tacchino & Uova Strapazzate",
+        "description": "Torretta di pancake soffici farciti con formaggio cremoso, fesa di tacchino e uova strapazzate."
+      }
+    }
+  },
+  {
+    "id": "breakfast-koulouri-thessalonikis",
+    "price": 6.0,
+    "category": "savory-breakfast",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:koulouri-thessalonikis?c=1780992293",
+    "translations": {
+      "en": {
+        "name": "Thessaloniki Sesame Bagel Sandwich",
+        "description": "Traditional sesame crust bagel filled with hard boiled egg, Milano salami, rocket, graviera cheese, and mayo."
+      },
+      "el": {
+        "name": "Γεμιστό κουλούρι Θεσσαλονίκης",
+        "description": "Παραδοσιακό σουσαμένιο κουλούρι με βραστό αυγό, σαλάμι Μιλάνου, ρόκα, γραβιέρα και μαγιονέζα."
+      },
+      "it": {
+        "name": "Koulouri di Salonicco al Sesamo Farcito",
+        "description": "Ciambella al sesamo ripiena con uovo sodo, salame Milano, rucola, formaggio graviera e maionese."
+      }
+    }
+  },
+  {
+    "id": "breakfast-focaccia-mortadella",
+    "price": 6.0,
+    "category": "savory-breakfast",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:focaccia-mortadela?c=1751970448",
+    "translations": {
+      "en": {
+        "name": "Mortadella & Pistachio Focaccia",
+        "description": "Crisp artisanal focaccia sandwich with Italian mortadella, homemade pistachio pesto, and fresh mozzarella."
+      },
+      "el": {
+        "name": "Φοκάτσια με μορταδέλα & πέστο φυστικιού",
+        "description": "Χειροποίητη ιταλική φοκάτσια με μορταδέλα Μπολόνιας, πέστο φυστικιού Αιγίνης και μοτσαρέλα."
+      },
+      "it": {
+        "name": "Focaccia con Mortadella & Pesto di Pistacchio",
+        "description": "Focaccia calda artigianale farcita con mortadella di Bologna, pesto fresco di pistacchio e mozzarella fior di latte."
+      }
+    }
+  },
+  {
+    "id": "breakfast-eggs-benedict",
+    "price": 7.0,
+    "category": "savory-breakfast",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:auga-benedict?c=1732894603",
+    "translations": {
+      "en": {
+        "name": "Eggs Benedict with Salmon",
+        "description": "Toasted brioche topped with poached eggs, smoked salmon, and silky homemade Hollandaise sauce."
+      },
+      "el": {
+        "name": "Αυγά Μπένεντικτ με καπνιστό σολομό",
+        "description": "Ψωμί μπριός με αυγά ποσέ, καπνιστό σολομό και κρεμώδη σάλτσα ολαντέζ."
+      },
+      "it": {
+        "name": "Uova alla Benedict con Salmone Affumicato",
+        "description": "Pane brioche tostato con uova in camicia, salmone affumicato e vellutata salsa olandese."
+      }
+    }
+  },
+  {
+    "id": "breakfast-scrambled-eggs",
+    "price": 7.0,
+    "category": "savory-breakfast",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:auga-scrambled?c=1743423531",
+    "translations": {
+      "en": {
+        "name": "Creamy Scrambled Eggs with Turkey",
+        "description": "2 soft scrambled eggs with smoked turkey and cream cheese. Served with artisan toasted bread."
+      },
+      "el": {
+        "name": "Αυγά στραπατσάδα με γαλοπούλα",
+        "description": "Κρεμώδη αυγά στραπατσάδα με καπνιστή γαλοπούλα, τυρί κρέμα και φρυγανισμένο ψωμί."
+      },
+      "it": {
+        "name": "Uova Strapazzate con Tacchino & Formaggio Fresco",
+        "description": "2 uova strapazzate cremose con fette di tacchino e crema spalmabile al formaggio, servite con pane tostato."
+      }
+    }
+  },
+  {
+    "id": "breakfast-omelette-whites",
+    "price": 6.0,
+    "category": "savory-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:omeleta-leuki?c=1753363874",
+    "translations": {
+      "en": {
+        "name": "Egg White Omelette",
+        "description": "Prepared with 3 egg whites, sautéed mushrooms, tomatoes, and rocket. Served with whole grain bread."
+      },
+      "el": {
+        "name": "Ομελέτα μόνο με ασπράδια",
+        "description": "Ομελέτα με 3 ασπράδια αυγών, μανιτάρια, ντομάτα και ρόκα, με ψωμί ολικής άλεσης."
+      },
+      "it": {
+        "name": "Omelette di Soli Albumi",
+        "description": "Omelette leggera con 3 albumi d'uovo, funghi trifolati, pomodoro e rucola, con pane integrale."
+      }
+    }
+  },
+  {
+    "id": "breakfast-classic-omelette",
+    "price": 6.0,
+    "category": "savory-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:omeleta?c=1753363874",
+    "translations": {
+      "en": {
+        "name": "Classic Omelette",
+        "description": "3 farm egg fluffy omelette. Served with toasted bread and a fresh seasonal salad."
+      },
+      "el": {
+        "name": "Κλασική χωριάτικη ομελέτα",
+        "description": "Αφράτη ομελέτα από 3 φρέσκα αυγά, σερβίρεται με φρυγανισμένο ψωμί και εποχική σαλάτα."
+      },
+      "it": {
+        "name": "Omelette Classica della Fattoria",
+        "description": "Soffice omelette con 3 uova fresche di fattoria, servita con pane tostato e insalatina di stagione."
+      }
+    }
+  },
+  {
+    "id": "breakfast-club-sandwich-chicken",
+    "price": 7.0,
+    "category": "savory-breakfast",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:club-sandwich-chicken?c=1707500128",
+    "translations": {
+      "en": {
+        "name": "Chicken Club Sandwich",
+        "description": "Triple-decker sandwich with grilled chicken, ham, crispy bacon, gouda, tomato, lettuce, and mayo. Served with fries."
+      },
+      "el": {
+        "name": "Κλαμπ σάντουιτς με κοτόπουλο",
+        "description": "Τριπλό σάντουιτς με ψητό κοτόπουλο, ζαμπόν, μπέικον, λιωμένο γκούντα, ντομάτα, μαρούλι και μαγιονέζα. Συνοδεύεται από πατάτες τηγανητές."
+      },
+      "it": {
+        "name": "Club Sandwich con Pollo & Bacon Croccante",
+        "description": "Tre strati di pane tostato con filetto di pollo grigliato, prosciutto, bacon, formaggio gouda, pomodoro, lattuga e maionese. Con patatine fritte."
+      }
+    }
+  },
+  {
+    "id": "breakfast-toast-turkey-gouda",
+    "price": 3.0,
+    "category": "savory-breakfast",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tost-galopoula-kai-gouda?c=1768994596",
+    "translations": {
+      "en": {
+        "name": "Turkey & Gouda Toast",
+        "description": "Classic golden toasted sandwich filled with smoked turkey breast and melted gouda cheese."
+      },
+      "el": {
+        "name": "Τοστ με γαλοπούλα & γκούντα",
+        "description": "Κλασικό ζεστό τοστ με καπνιστή γαλοπούλα και λιωμένο τυρί γκούντα."
+      },
+      "it": {
+        "name": "Toast Caldo con Tacchino & Gouda",
+        "description": "Classico toast dorato alla piastra con fesa di tacchino affumicata e formaggio gouda filante."
+      }
+    }
+  },
+  {
+    "id": "breakfast-oat-porridge",
+    "price": 5.0,
+    "category": "sweet-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Vanilla Oat Porridge",
+        "description": "Warm rolled oats in vanilla-infused milk, topped with sliced banana, fresh blueberries, and honey."
+      },
+      "el": {
+        "name": "Χυλός βρώμης με βανίλια & φρούτα",
+        "description": "Ζεστή βρώμη σε γάλα βανίλιας, με μπανάνα, μύρτιλα και μέλι."
+      },
+      "it": {
+        "name": "Porridge d'Avena con Frutta Fresca",
+        "description": "Fiocchi d'avena caldi al latte di vaniglia con banana, mirtilli e miele."
+      }
+    }
+  },
+  {
+    "id": "breakfast-rice-pudding",
+    "price": 5.0,
+    "category": "sweet-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "White Chocolate & Lime Rice Pudding",
+        "description": "Creamy vanilla milk rice pudding infused with fine white chocolate and fragrant lime zest."
+      },
+      "el": {
+        "name": "Κρέμα ρυζιού με λευκή σοκολάτα & λάιμ",
+        "description": "Βελούδινο ρυζόγαλο με γάλα βανίλιας, εκλεκτή λευκή σοκολάτα και ξύσμα λάιμ."
+      },
+      "it": {
+        "name": "Budino Cremoso di Riso con Cioccolato Bianco & Lime",
+        "description": "Dolce di riso al latte alla vaniglia arricchito con cioccolato bianco fuso e scorzette di lime."
+      }
+    }
+  },
+  {
+    "id": "breakfast-sweet-bread",
+    "price": 5.0,
+    "category": "sweet-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Tahini & Banana Sweet Bread",
+        "description": "Whole grain artisan bread spread with natural sesame tahini, sliced banana, thyme honey, and walnuts."
+      },
+      "el": {
+        "name": "Ψωμί ολικής με ταχίνι, μπανάνα & μέλι",
+        "description": "Ψωμί ολικής άλεσης με φυσικό ταχίνι, φρέσκια μπανάνα, θυμαρίσιο μέλι και καρύδια."
+      },
+      "it": {
+        "name": "Pane Integrale con Crema di Sesamo, Banana & Miele",
+        "description": "Pane rustico integrale tostato spalmato con crema tahini di sesamo, banana fresca, miele e noci."
+      }
+    }
+  },
+  {
+    "id": "breakfast-pancakes-peanut-butter",
+    "price": 6.0,
+    "category": "sweet-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:pancakes-phustikobouturo?c=1752062595",
+    "translations": {
+      "en": {
+        "name": "Peanut Butter & Strawberry Pancakes",
+        "description": "Stack of 3 fluffy pancakes layered with rich peanut butter and homemade strawberry jam."
+      },
+      "el": {
+        "name": "Τηγανίτες με φυστικοβούτυρο & μαρμελάδα φράουλα",
+        "description": "3 τηγανίτες με φυστικοβούτυρο και σπιτική μαρμελάδα φράουλας."
+      },
+      "it": {
+        "name": "Pancake con Burro d'Arachidi & Confettura di Fragole",
+        "description": "3 soffici pancake americani guarniti con cremoso burro d'arachidi e confettura di fragole."
+      }
+    }
+  },
+  {
+    "id": "breakfast-pancakes-bueno",
+    "price": 6.0,
+    "category": "sweet-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:pancakes-bueno?c=1763737063",
+    "translations": {
+      "en": {
+        "name": "Bueno Praline Pancakes",
+        "description": "Stack of 3 pancakes drizzled with white praline, Bueno hazelnut cream, and crushed biscuit."
+      },
+      "el": {
+        "name": "Τηγανίτες με κρέμα Bueno & λευκή σοκολάτα",
+        "description": "3 τηγανίτες με πραλίνα Bueno, λευκή σοκολάτα και τριμμένο μπισκότο."
+      },
+      "it": {
+        "name": "Pancake con Crema Bueno alla Nocciola",
+        "description": "3 soffici pancake con crema pasticcera al cioccolato bianco, crema alle nocciole Bueno e biscotto sbriciolato."
+      }
+    }
+  },
+  {
+    "id": "breakfast-pancakes-lemon",
+    "price": 6.0,
+    "category": "sweet-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Lemon Curd & White Chocolate Pancakes",
+        "description": "Stack of 3 pancakes with zesty lemon cream, melted white chocolate, and buttery biscuit crumble."
+      },
+      "el": {
+        "name": "Τηγανίτες με κρέμα λεμονιού & λευκή σοκολάτα",
+        "description": "3 τηγανίτες με κρέμα λεμονιού, λευκή σοκολάτα και τριμμένο μπισκότο."
+      },
+      "it": {
+        "name": "Pancake con Crema al Limone & Cioccolato Bianco",
+        "description": "3 soffici pancake farciti con crema fresca al limone, cioccolato bianco e briciole di frolla."
+      }
+    }
+  },
+  {
+    "id": "breakfast-croissant-pistachio",
+    "price": 5.0,
+    "category": "sweet-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Pistachio Croissant",
+        "description": "Flaky golden butter croissant filled with velvety pistachio praline cream."
+      },
+      "el": {
+        "name": "Κρουασάν βουτύρου με κρέμα φυστικιού",
+        "description": "Τραγανό γαλλικό κρουασάν βουτύρου με πλούσια γέμιση πραλίνας φυστικιού Αιγίνης."
+      },
+      "it": {
+        "name": "Cornetto Sfogliato al Burro con Crema di Pistacchio",
+        "description": "Croissant dorato e fragrante ripieno di vellutata crema artigianale al pistacchio."
+      }
+    }
+  },
+  {
+    "id": "breakfast-croissant-triple-chocolate",
+    "price": 5.0,
+    "category": "sweet-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Triple Chocolate Croissant",
+        "description": "Crisp butter croissant filled with a decadent trio of dark, milk, and white chocolates."
+      },
+      "el": {
+        "name": "Κρουασάν βουτύρου τριπλής σοκολάτας",
+        "description": "Γαλλικό κρουασάν βουτύρου γεμισμένο με συνδυασμό μαύρης σοκολάτας, γάλακτος και λευκής."
+      },
+      "it": {
+        "name": "Cornetto Sfogliato al Triplo Cioccolato",
+        "description": "Croissant al burro con generoso ripieno di cioccolato fondente, al latte e bianco."
+      }
+    }
+  },
+  {
+    "id": "breakfast-croissant-strawberry",
+    "price": 5.0,
+    "category": "sweet-breakfast",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:croissant-phraoula?c=1743512304",
+    "translations": {
+      "en": {
+        "name": "Strawberry Cream Croissant",
+        "description": "Butter croissant filled with sweet pastry cream and fragrant strawberry filling."
+      },
+      "el": {
+        "name": "Κρουασάν βουτύρου με κρέμα & φράουλα",
+        "description": "Αφράτο κρουασάν βουτύρου με γέμιση κρέμας ζαχαροπλαστικής και μαρμελάδα φράουλας."
+      },
+      "it": {
+        "name": "Cornetto Sfogliato con Crema Pasticcera & Fragola",
+        "description": "Croissant friabile ripieno di delicata crema pasticcera e confettura profumata di fragole."
+      }
+    }
+  },
+  {
+    "id": "yogurt-fruits-granola",
+    "price": 5.0,
+    "category": "yogurts",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Greek Yogurt with Fresh Fruits & Granola",
+        "description": "Authentic Greek strained yogurt topped with seasonal fruits, crisp granola, and thyme honey."
+      },
+      "el": {
+        "name": "Στραγγιστό γιαούρτι με φρούτα, μέλι & γκρανόλα",
+        "description": "Αυθεντικό ελληνικό στραγγιστό γιαούρτι με φρέσκα φρούτα εποχής, μέλι και τραγανή γκρανόλα."
+      },
+      "it": {
+        "name": "Coppa di Yogurt Greco con Frutta Fresca, Miele & Granola",
+        "description": "Autentico yogurt greco colato denso con frutta fresca di stagione, muesli croccante granola e miele."
+      }
+    }
+  },
+  {
+    "id": "yogurt-biscuit-strawberry",
+    "price": 5.0,
+    "category": "yogurts",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Greek Yogurt with Biscuit Crumble & Aronia Strawberry",
+        "description": "Strained Greek yogurt paired with butter biscuit crumble and strawberry-aronia berry jam."
+      },
+      "el": {
+        "name": "Στραγγιστό γιαούρτι με μπισκότο & μαρμελάδα αρώνια-φράουλα",
+        "description": "Στραγγιστό γιαούρτι με τριμμένο μπισκότο και μαρμελάδα φράουλας με αρώνια."
+      },
+      "it": {
+        "name": "Coppa di Yogurt Greco con Biscotto & Composta di Fragola e Aronia",
+        "description": "Yogurt greco cremoso con crumble di biscotto dorato e composta artigianale di fragole e bacche di aronia."
+      }
+    }
+  },
+  {
+    "id": "bread-focaccia-whole-grain",
+    "price": 2.0,
+    "category": "bread-couvert",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Handmade Focaccia & Whole Grain Bread",
+        "description": "House-baked focaccia and rustic whole wheat bread, served with a fresh herb yogurt dip."
+      },
+      "el": {
+        "name": "Φοκάτσια & χειροποίητο ψωμί ολικής άλεσης",
+        "description": "Φρεσκοψημένη ιταλική φοκάτσια και χωριάτικο ψωμί ολικής άλεσης, με ντιπ γιαουρτιού και μυρωδικά."
+      },
+      "it": {
+        "name": "Cestino di Focaccia & Pane Rustico Integrale Fatti in Casa",
+        "description": "Focaccia calda e pane integrale artigianale sfornati freschi, serviti con salsa di yogurt greco alle erbe."
+      }
+    }
+  },
+  {
+    "id": "appetizer-politika-meatballs",
+    "price": 8.0,
+    "category": "appetizers",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:kephtedakia-politika?c=1754909030",
+    "translations": {
+      "en": {
+        "name": "Politika Spiced Beef Meatballs",
+        "description": "6 pieces. 100% prime ground beef meatballs prepared with fragrant spices and fresh tomato sauce."
+      },
+      "el": {
+        "name": "Κεφτεδάκια πολίτικα σε σάλτσα ντομάτας",
+        "description": "6 τεμάχια. Παραδοσιακά κεφτεδάκια από 100% μοσχαρίσιο κιμά με μυρωδικά και σάλτσα φρέσκιας ντομάτας."
+      },
+      "it": {
+        "name": "Polpette di Manzo al Sugo di Pomodoro",
+        "description": "6 pezzi. Polpette speziate di manzo al sugo di pomodoro fresco."
+      }
+    }
+  },
+  {
+    "id": "appetizer-zucchini-eggplant",
+    "price": 6.0,
+    "category": "appetizers",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Crispy Zucchini & Eggplant Chips",
+        "description": "Thin sliced fried courgette and aubergine crisps, served with yogurt sauce, carpaccio tomato, olive oil, and basil."
+      },
+      "el": {
+        "name": "Τραγανά τσιπς κολοκυθιού & μελιτζάνας",
+        "description": "Τραγανά τηγανητά κολοκυθάκια και μελιτζάνες με σάλτσα γιαουρτιού, λεπτοκομμένη ντομάτα, ελαιόλαδο και βασιλικό."
+      },
+      "it": {
+        "name": "Chips Croccanti di Zucchine & Melanzane",
+        "description": "Fettine sottili e dorate di zucchine e melanzane con salsa allo yogurt greco, carpaccio di pomodoro ed erbe."
+      }
+    }
+  },
+  {
+    "id": "appetizer-shrimp-tempura",
+    "price": 7.0,
+    "category": "appetizers",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:garides-tempura?c=1751981310",
+    "translations": {
+      "en": {
+        "name": "Prawn Tempura",
+        "description": "6 pieces. Golden crispy tempura prawns accompanied by an aromatic wasabi dipping sauce."
+      },
+      "el": {
+        "name": "Τραγανές γαρίδες τεμπούρα",
+        "description": "6 τεμάχια. Γαρίδες σε τραγανό κουρκούτι τεμπούρα, συνοδεύονται από απαλή σάλτσα ουασάμπι."
+      },
+      "it": {
+        "name": "Gamberi Croccanti in Pastella Tempura",
+        "description": "6 pezzi. Code di gambero dorate in pastella leggera tempura con salsa delicata al wasabi."
+      }
+    }
+  },
+  {
+    "id": "appetizer-mini-kebab",
+    "price": 8.0,
+    "category": "appetizers",
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Handcrafted Mini Kebabs",
+        "description": "6 pieces. Handmade spiced minced meat kebabs, served with cut pita bread wedges and yogurt sauce."
+      },
+      "el": {
+        "name": "Χειροποίητα μίνι κεμπάπ",
+        "description": "6 τεμάχια. Ζουμερά χειροποίητα κεμπάπ σχάρας με ψητά πιτάκια και δροσερή σάλτσα γιαουρτιού."
+      },
+      "it": {
+        "name": "Mini Spiedini Kebab di Carne alla Griglia",
+        "description": "6 pezzi. Spiedini artigianali di carne speziata cotti alla brace, serviti con pane pita e salsa yogurt."
+      }
+    }
+  },
+  {
+    "id": "appetizer-chicken-strips",
+    "price": 6.5,
+    "category": "appetizers",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:philetinia-kotopoulo?c=1752342057",
+    "translations": {
+      "en": {
+        "name": "Crispy Chicken Tender Strips",
+        "description": "Golden tender chicken breast strips, seasoned and breaded. Served with smooth aioli sauce."
+      },
+      "el": {
+        "name": "Τραγανά φιλετίνια κοτόπουλου πανέ",
+        "description": "Τρυφερά φιλετάκια κοτόπουλου με τραγανή κρούστα μπαχαρικών, συνοδεύονται από σάλτσα αγιολί."
+      },
+      "it": {
+        "name": "Straccetti di Filetto di Pollo Croccanti con Salsa Aioli",
+        "description": "Teneri bocconcini di pollo impanati con spezie e dorati, serviti con salsa aioli all'aglio dolce."
+      }
+    }
+  },
+  {
+    "id": "salad-green-harmony",
+    "price": 8.5,
+    "category": "salads",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Green Symphony & Ios Skotyri Salad",
+        "description": "Mix of crisp green leaves, toasted walnuts, authentic skotyri cheese from Ios island, and citrus vinaigrette."
+      },
+      "el": {
+        "name": "Πράσινη σαλάτα με σκοτύρι Ίου & καρύδια",
+        "description": "Ανάμεικτα τραγανά πράσινα λαχανικά, καρύδια, παραδοσιακό σκοτύρι Ίου και βινεγκρέτ εσπεριδοειδών."
+      },
+      "it": {
+        "name": "Insalata Sinfonia Verde con Formaggio di Ios & Noci",
+        "description": "Misticanza fresca con noci, formaggio tipico di Ios e vinaigrette agli agrumi."
+      }
+    }
+  },
+  {
+    "id": "salad-rucola-prosciutto",
+    "price": 9.0,
+    "category": "salads",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:rucola?c=1754770613",
+    "translations": {
+      "en": {
+        "name": "Rucola & Prosciutto Salad",
+        "description": "Fresh baby rocket, cherry tomatoes, prosciutto crudo, walnuts, San Michali cheese flakes, and balsamic vinaigrette."
+      },
+      "el": {
+        "name": "Σαλάτα ρόκα με προσούτο & τυρί Σαν Μιχάλη",
+        "description": "Φρέσκια ρόκα, τοματίνια, ιταλικό προσούτο, καρύδια, φλούδες τυριού Σαν Μιχάλη και βινεγκρέτ βαλσάμικου."
+      },
+      "it": {
+        "name": "Insalata di Rucola Fresca, Prosciutto Crudo & San Michali",
+        "description": "Rucola tenera, pomodorini ciliegino, fette di prosciutto crudo, noci, scaglie di formaggio San Michali e vinaigrette balsamica."
+      }
+    }
+  },
+  {
+    "id": "salad-caprese",
+    "price": 10.0,
+    "category": "salads",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:caprese?c=1743170859",
+    "translations": {
+      "en": {
+        "name": "Buffalo Mozzarella Caprese",
+        "description": "Cherry tomatoes, carob rusks, fresh buffalo mozzarella, fragrant basil pesto, and aged truffle balsamic glaze."
+      },
+      "el": {
+        "name": "Σαλάτα Καπρέζε με βουβαλίσια μοτσαρέλα",
+        "description": "Τοματίνια, παξιμάδι χαρουπιού, φρέσκια βουβαλίσια μοτσαρέλα, πέστο βασιλικού και παλαιωμένο βαλσάμικο τρούφας."
+      },
+      "it": {
+        "name": "Caprese con Mozzarella di Bufala Campana & Tartufo",
+        "description": "Pomodorini, tocchetti di pane al carrubo, mozzarella di bufala, pesto al basilico e riduzione balsamica al tartufo."
+      }
+    }
+  },
+  {
+    "id": "salad-caesars",
+    "price": 8.5,
+    "category": "salads",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:caesar-s?c=1776870819",
+    "translations": {
+      "en": {
+        "name": "Caesar's Chicken Salad",
+        "description": "Crisp iceberg, tender chicken fillet, crispy bacon, shaved parmesan, house croutons, and authentic Caesar's dressing."
+      },
+      "el": {
+        "name": "Σαλάτα του Καίσαρα με κοτόπουλο",
+        "description": "Τραγανό μαρούλι, ψητό φιλέτο κοτόπουλο, μπέικον, παρμεζάνα, κρουτόν και σάλτσα του Καίσαρα."
+      },
+      "it": {
+        "name": "Insalata Caesar con Pollo alla Griglia & Crostini",
+        "description": "Lattuga iceberg croccante, petto di pollo ai ferri, bacon affumicato, scaglie di parmigiano, crostini e salsa Caesar."
+      }
+    }
+  },
+  {
+    "id": "salad-beetroot",
+    "price": 8.0,
+    "category": "salads",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:pantzaria?c=1779103245",
+    "translations": {
+      "en": {
+        "name": "Beetroot Leaf & Seasonal Fruit Salad",
+        "description": "Tender beetroot leaves with infused seasonal fresh fruits, strawberry sauce, and balsamic vinaigrette."
+      },
+      "el": {
+        "name": "Σαλάτα παντζαριού με φρούτα εποχής",
+        "description": "Τρυφερά φύλλα παντζαριού, φρέσκα αρωματισμένα φρούτα εποχής, σάλτσα φράουλας και βινεγκρέτ βαλσάμικου."
+      },
+      "it": {
+        "name": "Insalata con Foglie di Barbabietola & Frutta di Stagione",
+        "description": "Teneri germogli di barbabietola rossa, frutta fresca marinata, riduzione di fragole e vinaigrette al balsamico."
+      }
+    }
+  },
+  {
+    "id": "salad-greek",
+    "price": 8.5,
+    "category": "salads",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/restaurants/7597106/menu_item/000000000328?c=1787860573",
+    "translations": {
+      "en": {
+        "name": "Traditional Greek Salad",
+        "description": "Ripe cherry tomatoes, cucumber, bell pepper, capers, caper leaves, Greek P.D.O. feta cheese, and extra virgin olive oil."
+      },
+      "el": {
+        "name": "Αυθεντική ελληνική χωριάτικη σαλάτα",
+        "description": "Ζουμερά τοματίνια, τραγανό αγγούρι, πιπεριά, κάπαρη, καπαρόφυλλα, φέτα Π.Ο.Π. και παρθένο ελαιόλαδο."
+      },
+      "it": {
+        "name": "Insalata Greca Tradizionale",
+        "description": "Pomodorini, cetrioli freschi, peperoni, capperi, formaggio feta ellenico D.O.P. e olio extravergine."
+      }
+    }
+  },
+  {
+    "id": "pasta-tagliolini-shrimp",
+    "price": 11.0,
+    "category": "pasta",
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Tagliolini with Sautéed Prawns",
+        "description": "Tagliolini pasta with pan-sautéed prawns, delicate saffron-infused cream, and fresh herbs."
+      },
+      "el": {
+        "name": "Ταλιολίνι με γαρίδες & κρέμα σαφράν",
+        "description": "Φρέσκα ζυμαρικά ταλιολίνι με σοταρισμένες γαρίδες σε βελούδινη κρέμα αρωματισμένη με σαφράν και μυρωδικά."
+      },
+      "it": {
+        "name": "Tagliolini all'Uovo con Gamberi & Crema allo Zafferano",
+        "description": "Tagliolini freschi con gamberi spadellati in vellutata crema profumata allo zafferano ed erbe aromatiche."
+      }
+    }
+  },
+  {
+    "id": "pasta-pappardelle-ragout",
+    "price": 13.0,
+    "category": "pasta",
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Pappardelle with Beef Ragout",
+        "description": "Ribbon pappardelle with slow-braised tender beef ragù, sprinkled with grated Greek graviera cheese."
+      },
+      "el": {
+        "name": "Παπαρδέλες με σιγομαγειρεμένο μοσχαράκι ραγού",
+        "description": "Πλατιές παπαρδέλες με τρυφερό μοσχαρίσιο κρέας σιγομαγειρεμένο σε πλούσια σάλτσα και τριμμένη γραβιέρα."
+      },
+      "it": {
+        "name": "Pappardelle al Ragù di Manzo Brasato a Lenta Cottura",
+        "description": "Pappardelle all'uovo mantecate con ragù di manzo brasato a lungo e formaggio graviera grattugiato."
+      }
+    }
+  },
+  {
+    "id": "pasta-casarecce-alfredo",
+    "price": 10.0,
+    "category": "pasta",
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Casarecce Alfredo with Chicken & Pancetta",
+        "description": "Casarecce pasta with chicken fillet, three varieties of mushrooms, cream cheese, and smoked Italian pancetta."
+      },
+      "el": {
+        "name": "Καζαρέτσε Αλφρέντο με κοτόπουλο & καπνιστή πανσέτα",
+        "description": "Ζυμαρικά καζαρέτσε με κοτόπουλο, ποικιλία τριών μανιταριών, κρέμα τυριού και καπνιστή πανσέτα."
+      },
+      "it": {
+        "name": "Casarecce Alfredo con Pollo, Funghi & Pancetta Affumicata",
+        "description": "Casarecce con bocconcini di pollo, tris di funghi trifolati, crema di formaggio e croccante pancetta affumicata."
+      }
+    }
+  },
+  {
+    "id": "pasta-paccheri-tartufo",
+    "price": 12.0,
+    "category": "pasta",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Paccheri Tartufo",
+        "description": "Paccheri pasta tossed with three types of wild mushrooms and aromatic black truffle paste."
+      },
+      "el": {
+        "name": "Πάκερι με άγρια μανιτάρια & πάστα τρούφας",
+        "description": "Ιταλικά ζυμαρικά πάκερι με ποικιλία τριών άγριων μανιταριών και αρωματική πάστα μαύρης τρούφας."
+      },
+      "it": {
+        "name": "Paccheri con Tris di Funghi & Crema di Tartufo Nero",
+        "description": "Paccheri trafilati al bronzo con selezione di tre varietà di funghi e crema artigianale di tartufo nero."
+      }
+    }
+  },
+  {
+    "id": "pinsa-margherita",
+    "price": 8.0,
+    "category": "pinsa",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:pinsa-margherita?c=1752349545",
+    "translations": {
+      "en": {
+        "name": "Pinsa Margherita",
+        "description": "8 slices. Artisanal Roman pinsa dough topped with tomato sauce and mozzarella."
+      },
+      "el": {
+        "name": "Πίνσα Μαργαρίτα",
+        "description": "8 κομμάτια. Ρωμαϊκή ζύμη πίνσα με σάλτσα ντομάτας και λιωμένη μοτσαρέλα."
+      },
+      "it": {
+        "name": "Pinsa Romana Margherita",
+        "description": "8 tranci. Tradizionale impasto romano fragrante ad alta idratazione con salsa di pomodoro e mozzarella fior di latte."
+      }
+    }
+  },
+  {
+    "id": "pinsa-caprese",
+    "price": 9.5,
+    "category": "pinsa",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Pinsa Caprese",
+        "description": "8 slices. Roman pinsa with fresh tomato sauce, creamy stracciatella cheese, and basil pesto."
+      },
+      "el": {
+        "name": "Πίνσα Καπρέζε με στρατσιατέλα",
+        "description": "8 κομμάτια. Ρωμαϊκή πίνσα με σάλτσα ντομάτας, κρεμώδη στρατσιατέλα και φρέσκο πέστο βασιλικού."
+      },
+      "it": {
+        "name": "Pinsa Romana Caprese con Stracciatella Pugliese",
+        "description": "8 tranci. Base croccante con pomodoro San Marzano, morbida stracciatella fresca e pesto di basilico genovese."
+      }
+    }
+  },
+  {
+    "id": "pinsa-prosciutto",
+    "price": 10.0,
+    "category": "pinsa",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/restaurants/7597106/menu_item/000000000132?c=1759388986",
+    "translations": {
+      "en": {
+        "name": "Pinsa Prosciutto Crudo & Rucola",
+        "description": "8 slices. Tomato sauce, mozzarella fiori di latte, prosciutto crudo, parmesan flakes, and wild rocket."
+      },
+      "el": {
+        "name": "Πίνσα με προσούτο, παρμεζάνα & ρόκα",
+        "description": "8 κομμάτια. Σάλτσα ντομάτας, φρέσκια μοτσαρέλα, ιταλικό προσούτο, φλούδες παρμεζάνας και φρέσκια ρόκα."
+      },
+      "it": {
+        "name": "Pinsa con Prosciutto Crudo, Grana & Rucola",
+        "description": "8 tranci. Salsa di pomodoro, mozzarella fior di latte, prosciutto crudo, scaglie di formaggio grana e rucola fresca."
+      }
+    }
+  },
+  {
+    "id": "pinsa-tartufo",
+    "price": 11.0,
+    "category": "pinsa",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Pinsa Tartufo",
+        "description": "8 slices. White pinsa with mascarpone, tartufo truffle paste, trio of mushrooms, and sweet cherry tomatoes."
+      },
+      "el": {
+        "name": "Λευκή πίνσα με τρούφα & μανιτάρια",
+        "description": "8 κομμάτια. Λευκή πίνσα με μασκαρπόνε, πάστα τρούφας, τριλογία μανιταριών και γλυκά τοματίνια."
+      },
+      "it": {
+        "name": "Pinsa Bianca con Crema di Tartufo & Funghi",
+        "description": "8 tranci. Pinsa bianca con mascarpone vellutato, crema di tartufo nero, trittico di funghi e pomodorini dolci."
+      }
+    }
+  },
+  {
+    "id": "pinsa-pepperoni",
+    "price": 10.0,
+    "category": "pinsa",
+    "spicyLevel": 1,
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Pinsa Pepperoni",
+        "description": "8 slices. Fresh tomato sauce, melted mozzarella, and spicy Italian pepperoni salami."
+      },
+      "el": {
+        "name": "Πίνσα με πικάντικο πεπερόνι",
+        "description": "8 κομμάτια. Φρέσκια σάλτσα ντομάτας, λιωμένη μοτσαρέλα και πικάντικο σαλάμι πεπερόνι."
+      },
+      "it": {
+        "name": "Pinsa al Salame Piccante",
+        "description": "8 tranci. Base croccante con salsa di pomodoro fresco, mozzarella filante e fette di gustoso salame piccante."
+      }
+    }
+  },
+  {
+    "id": "pinsa-mortadella-pistachio",
+    "price": 11.0,
+    "category": "pinsa",
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Pinsa Mortadella & Pistachio",
+        "description": "8 slices. Artisanal pinsa with Mortadella Bologna, creamy mascarpone, fresh ricotta, and crushed pistachios."
+      },
+      "el": {
+        "name": "Πίνσα με μορταδέλα & φυστίκι Αιγίνης",
+        "description": "8 κομμάτια. Μορταδέλα Μπολόνιας, κρεμώδες μασκαρπόνε, φρέσκια ρικότα και τριμμένο φυστίκι Αιγίνης."
+      },
+      "it": {
+        "name": "Pinsa con Mortadella di Bologna & Granella di Pistacchio",
+        "description": "8 tranci. Pinsa fragrante con fette di mortadella Bologna I.G.P., mascarpone, ricotta fresca e pistacchi tritati."
+      }
+    }
+  },
+  {
+    "id": "pinsa-mediterranean",
+    "price": 11.0,
+    "category": "pinsa",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Mediterranean Pinsa",
+        "description": "8 slices. Tomato sauce, mozzarella, Greek feta, Kalamata olives, cherry tomatoes, bell pepper, onion, rocket, oregano, and olive oil."
+      },
+      "el": {
+        "name": "Μεσογειακή χωριάτικη πίνσα",
+        "description": "8 κομμάτια. Σάλτσα ντομάτας, μοτσαρέλα, φέτα Π.Ο.Π., ελιές Καλαμών, τοματίνια, πιπεριά, κρεμμύδι, ρόκα και ρίγανη."
+      },
+      "it": {
+        "name": "Pinsa Mediterranea con Feta Greca & Olive di Kalamata",
+        "description": "8 tranci. Salsa di pomodoro, mozzarella, feta greca D.O.P., olive di Kalamata, pomodorini, peperoni, cipolla, rucola e origano."
+      }
+    }
+  },
+  {
+    "id": "burger-giovannis",
+    "price": 12.0,
+    "category": "burgers",
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Giovanni's Burger",
+        "description": "Brioche bun with 100% beef patty, cheddar, fried egg, caramelized pancetta, iceberg, and Jack Daniel's glaze. Served with french fries."
+      },
+      "el": {
+        "name": "Μπέργκερ Giovanni's",
+        "description": "Ψωμάκι μπριός με μπιφτέκι από 100% μοσχαρίσιο κιμά, τσένταρ, τηγανητό αυγό, καραμελωμένη πανσέτα, μαρούλι και σάλτσα Jack Daniel's. Συνοδεύεται από πατάτες τηγανητές."
+      },
+      "it": {
+        "name": "Hamburger Giovanni's",
+        "description": "Panino brioche con hamburger di manzo 100%, cheddar, uovo fritto, pancetta caramellata, iceberg e glassa al Jack Daniel's. Con patatine fritte."
+      }
+    }
+  },
+  {
+    "id": "burger-mushroom",
+    "price": 12.0,
+    "category": "burgers",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:mushroom-burger?c=1742469008",
+    "translations": {
+      "en": {
+        "name": "Portobello & Goat Cheese Burger",
+        "description": "Brioche bun with 100% beef patty, wild rocket, sautéed Portobello mushrooms, and goat cheese cream. Served with french fries."
+      },
+      "el": {
+        "name": "Μπέργκερ με μανιτάρια Πορτομπέλο & κατσικίσιο τυρί",
+        "description": "Ψωμάκι μπριός με μπιφτέκι 100% μοσχαρίσιο, ρόκα, ψητά μανιτάρια Πορτομπέλο και κρέμα κατσικίσιου τυριού. Συνοδεύεται από πατάτες τηγανητές."
+      },
+      "it": {
+        "name": "Hamburger con Funghi Portobello & Crema di Caprino",
+        "description": "Panino brioche con hamburger di manzo 100%, rucola, funghi Portobello alla piastra e formaggio caprino. Con patatine fritte."
+      }
+    }
+  },
+  {
+    "id": "burger-double-smash",
+    "price": 12.0,
+    "category": "burgers",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:double-smash-burger?c=1788259304",
+    "translations": {
+      "en": {
+        "name": "Double Smash Burger",
+        "description": "Brioche bun with double seared 100% beef smash patties, double cheddar, pickles, bacon, and signature sauce. Served with french fries."
+      },
+      "el": {
+        "name": "Διπλό μπέργκερ smash",
+        "description": "Ψωμάκι μπριός με διπλό μοσχαρίσιο μπιφτέκι smash, διπλό τσένταρ, πίκλες, μπέικον και σάλτσα. Συνοδεύεται από πατάτες τηγανητές."
+      },
+      "it": {
+        "name": "Doppio Hamburger Smash alla Piastra",
+        "description": "Panino brioche con doppio smash burger di manzo 100%, doppio cheddar fuso, cetriolini sott'aceto, bacon e salsa della casa. Con patatine fritte."
+      }
+    }
+  },
+  {
+    "id": "burger-crispy-chicken",
+    "price": 9.0,
+    "category": "burgers",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:crispy-chicken-burger?c=1787760483",
+    "translations": {
+      "en": {
+        "name": "Crispy Chicken Burger",
+        "description": "Brioche bun with spiced breaded crispy chicken, iceberg lettuce, sliced tomato, parmesan flakes, and teriyaki sauce. Served with french fries."
+      },
+      "el": {
+        "name": "Μπέργκερ με τραγανό κοτόπουλο πανέ",
+        "description": "Ψωμάκι μπριός με παναρισμένο τραγανό κοτόπουλο με μπαχαρικά, μαρούλι, ντομάτα, παρμεζάνα και σάλτσα τεριγιάκι. Συνοδεύεται από πατάτες τηγανητές."
+      },
+      "it": {
+        "name": "Hamburger di Pollo Croccante Speziato",
+        "description": "Panino brioche con filetto di pollo panato alle spezie, lattuga iceberg, pomodoro, scaglie di parmigiano e salsa teriyaki. Con patatine fritte."
+      }
+    }
+  },
+  {
+    "id": "burger-bbq",
+    "price": 12.0,
+    "category": "burgers",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:bbq-burger?c=1755258406",
+    "translations": {
+      "en": {
+        "name": "BBQ & Smoked Scamorza Burger",
+        "description": "Brioche bun with 100% beef patty, BBQ glaze, tomato, iceberg, caramelized onions, bacon, and smoked scamorza. Served with french fries."
+      },
+      "el": {
+        "name": "Μπέργκερ μπάρμπεκιου με καπνιστή σκαμόρτσα",
+        "description": "Ψωμάκι μπριός με 100% μοσχαρίσιο μπιφτέκι, σάλτσα μπάρμπεκιου, ντομάτα, μαρούλι, καραμελωμένα κρεμμύδια, μπέικον και λιωμένο τυρί σκαμόρτσα. Συνοδεύεται από πατάτες τηγανητές."
+      },
+      "it": {
+        "name": "Hamburger Barbecue con Scamorza Affumicata & Bacon",
+        "description": "Panino brioche con hamburger di manzo 100%, salsa BBQ, pomodoro, cipolle caramellate, bacon croccante e scamorza affumicata. Con patatine fritte."
+      }
+    }
+  },
+  {
+    "id": "burger-sheep-lamb",
+    "price": 12.0,
+    "category": "burgers",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:burger-probatinas?c=1753433674",
+    "translations": {
+      "en": {
+        "name": "Traditional Greek Mutton Burger",
+        "description": "Brioche with a rich beef & mutton mince patty, grilled tomato, roasted onion, smoked metsovone cheese, and sour cream. Served with french fries."
+      },
+      "el": {
+        "name": "Παραδοσιακό μπέργκερ προβατίνας",
+        "description": "Ψωμάκι μπριός με μπιφτέκι από μοσχαρίσιο & πρόβειο κιμά, ψητό κρεμμύδι, καπνιστό μετσοβόνε, ντομάτα και ξινή κρέμα. Συνοδεύεται από πατάτες τηγανητές."
+      },
+      "it": {
+        "name": "Hamburger Tradizionale di Carne Ovina e Manzo",
+        "description": "Panino brioche con burger di pecora e manzo, pomodoro, cipolla grigliata, formaggio metsovone affumicato e panna acida. Con patatine fritte."
+      }
+    }
+  },
+  {
+    "id": "main-kontosouvli-chicken",
+    "price": 10.0,
+    "category": "mains",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:kontosoubli-kotopoulo?c=1787845454",
+    "translations": {
+      "en": {
+        "name": "Chicken Kontosouvli Spit Roast",
+        "description": "Rotisserie chicken skewer marinated in Mediterranean herbs. Accompanied by warm mini pita breads and lime-infused mayo."
+      },
+      "el": {
+        "name": "Κοντοσούβλι κοτόπουλο σχάρας",
+        "description": "Ζουμερό κοντοσούβλι κοτόπουλου μαριναρισμένο με μεσογειακά μυρωδικά. Συνοδεύεται από ζεστά πιτάκια και μαγιονέζα λάιμ."
+      },
+      "it": {
+        "name": "Kontosouvli di Pollo allo Spiedo con Pane Pita",
+        "description": "Spiedone tradizionale di tenero pollo marinato con erbe fresche mediterranee. Servito con mini focaccine pita e maionese al lime."
+      }
+    }
+  },
+  {
+    "id": "main-chicken-fillet",
+    "price": 10.0,
+    "category": "mains",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:phileto-kotopoulo?c=1752342057",
+    "translations": {
+      "en": {
+        "name": "Grilled Chicken Breast Fillet",
+        "description": "Grilled chicken breast fillet with traditional Greek lemon-oil dressing. Served with your choice of side."
+      },
+      "el": {
+        "name": "Φιλέτο στήθος κοτόπουλο σχάρας",
+        "description": "Τρυφερό ψητό φιλέτο κοτόπουλο με παραδοσιακό λαδολέμονο. Συνοδεύεται από γαρνιτούρα της επιλογής σας."
+      },
+      "it": {
+        "name": "Petto di Pollo ai Ferri con Salmoriglio al Limone",
+        "description": "Filetto di petto di pollo alla griglia con emulsione di olio extravergine d'oliva e limone. Servito con contorno a scelta."
+      }
+    }
+  },
+  {
+    "id": "main-beef-patties",
+    "price": 10.0,
+    "category": "mains",
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:mpiphteki-mosxarisio-sxaras?c=1751565930",
+    "translations": {
+      "en": {
+        "name": "Grilled Pure Beef Patties",
+        "description": "2 pieces. Charbroiled seasoned 100% beef patties, served with tomato, pita bread, yogurt sauce, and your choice of side."
+      },
+      "el": {
+        "name": "Μπιφτέκια μοσχαρίσια σχάρας",
+        "description": "2 τεμάχια. Ζουμερά μπιφτέκια από 100% μοσχαρίσιο κιμά στα κάρβουνα. Συνοδεύονται από ντομάτα, πιτάκια, σάλτσα γιαουρτιού και γαρνιτούρα επιλογής."
+      },
+      "it": {
+        "name": "Biftekia - Polpette di Manzo alla Brace alla Greca",
+        "description": "2 polpette di manzo 100% alla griglia speziate alla greca. Servite con pomodoro, focaccine pita, salsa allo yogurt e contorno a scelta."
+      }
+    }
+  },
+  {
+    "id": "main-grilled-salmon",
+    "price": 13.0,
+    "category": "mains",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:solomos-sxaras?c=1743080286",
+    "translations": {
+      "en": {
+        "name": "Grilled Atlantic Salmon Fillet",
+        "description": "Fresh Atlantic salmon steak flame-grilled with olive oil and lemon. Served with your choice of side."
+      },
+      "el": {
+        "name": "Φιλέτο σολομού σχάρας",
+        "description": "Φρέσκο φιλέτο σολομού στα κάρβουνα με εκλεκτό λαδολέμονο. Συνοδεύεται από γαρνιτούρα της επιλογής σας."
+      },
+      "it": {
+        "name": "Trancio di Salmone Fresco ai Ferri",
+        "description": "Trancio di salmone atlantico grigliato ai ferri condito con emulsione di olio EVO e limone. Servito con contorno a scelta."
+      }
+    }
+  },
+  {
+    "id": "main-beef-tenderloin-medallions",
+    "price": 17.0,
+    "category": "mains",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Prime Beef Tenderloin Medallions",
+        "description": "3 tender grilled beef fillet medallions, juicy and flavorful. Served with your choice of side."
+      },
+      "el": {
+        "name": "Μοσχαρίσια φιλετάκια γάλακτος σχάρας",
+        "description": "3 τεμάχια. Τρυφερά μενταγιόν από μοσχαρίσιο φιλέτο ψημένα στα κάρβουνα. Συνοδεύονται από γαρνιτούρα της επιλογής σας."
+      },
+      "it": {
+        "name": "Medaglioni di Filetto di Manzo alla Brace",
+        "description": "3 teneri medaglioni di filetto di manzo di prima qualità scottati alla griglia. Serviti con contorno a scelta."
+      }
+    }
+  },
+  {
+    "id": "main-greek-ribeye-900g",
+    "price": 25.0,
+    "category": "mains",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Greek Beef Ribeye 900g",
+        "description": "900g bone-in Greek ribeye steak char-grilled to order. Served with your choice of side."
+      },
+      "el": {
+        "name": "Ελληνική σπαλομπριζόλα 900γρ",
+        "description": "Σπαλομπριζόλα 900γρ με κόκαλο από εκλεκτό ελληνικό μοσχάρι ψημένη στα κάρβουνα. Συνοδεύεται από γαρνιτούρα επιλογής."
+      },
+      "it": {
+        "name": "Costata di Manzo Greca 900g",
+        "description": "Costata di manzo con osso da 900g cotta alla brace. Servita con contorno a scelta."
+      }
+    }
+  },
+  {
+    "id": "main-pork-tomahawk-800g",
+    "price": 18.0,
+    "category": "mains",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Pork Tomahawk Chop 800g",
+        "description": "800g pork belly tomahawk chop grilled to perfection. Served with your choice of side."
+      },
+      "el": {
+        "name": "Χοιρινή μπριζόλα Tomahawk 800γρ",
+        "description": "Ελληνική χοιρινή μπριζόλα Tomahawk 800γρ ψημένη στα κάρβουνα. Συνοδεύεται από γαρνιτούρα επιλογής."
+      },
+      "it": {
+        "name": "Bistecca Tomahawk di Maiale 800g",
+        "description": "Braciola Tomahawk di maiale da 800g grigliata. Servita con contorno a scelta."
+      }
+    }
+  },
+  {
+    "id": "main-veal-t-bone-500g",
+    "price": 18.0,
+    "category": "mains",
+    "dietary": [
+      "gluten-free"
+    ],
+    "image": "",
+    "translations": {
+      "en": {
+        "name": "Veal T-Bone Steak 500g",
+        "description": "500g milk-fed tender veal T-bone steak flame-broiled. Served with your choice of side."
+      },
+      "el": {
+        "name": "Μπριζόλα T-Bone γάλακτος 500γρ",
+        "description": "Μπριζόλα T-Bone 500γρ από μοσχαράκι γάλακτος ψημένη στα κάρβουνα. Συνοδεύεται από γαρνιτούρα επιλογής."
+      },
+      "it": {
+        "name": "Bistecca T-Bone di Vitello 500g",
+        "description": "Tenera bistecca T-Bone da 500g di vitello da latte alla griglia. Servita con contorno a scelta."
+      }
+    }
+  },
+  {
+    "id": "dessert-tiramisu",
+    "price": 5.0,
+    "category": "desserts",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:tiramisu?c=1774863262",
+    "translations": {
+      "en": {
+        "name": "Tiramisu",
+        "description": "Classic Italian espresso-soaked savoiardi layered with whipped mascarpone cream and dark chocolate shavings."
+      },
+      "el": {
+        "name": "Τιραμισού αυθεντικό",
+        "description": "Κλασικό ιταλικό τιραμισού με σαβαγιάρ εμποτισμένα σε εσπρέσο, πλούσια κρέμα μασκαρπόνε και τριμμένη μαύρη σοκολάτα."
+      },
+      "it": {
+        "name": "Tiramisù Tradizionale al Mascarpone",
+        "description": "Autentico tiramisù all'italiana con savoiardi imbevuti di espresso, soffice crema al mascarpone e scaglie di cioccolato fondente."
+      }
+    }
+  },
+  {
+    "id": "dessert-profiterole",
+    "price": 7.5,
+    "category": "desserts",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:profiterole?c=1774863413",
+    "translations": {
+      "en": {
+        "name": "Profiterole with Vanilla Ice Cream",
+        "description": "Choux pastry filled with artisanal vanilla ice cream, topped with rich chocolate sauce, biscuit crumble, and caramel."
+      },
+      "el": {
+        "name": "Προφιτερόλ με παγωτό βανίλια & καραμέλα",
+        "description": "Τραγανά σουδάκια γεμιστά με χειροποίητο παγωτό βανίλια, ζεστή σάλτσα σοκολάτας, τραγανό μπισκότο και καραμέλα βουτύρου."
+      },
+      "it": {
+        "name": "Profiterole Ripieno di Gelato alla Vaniglia",
+        "description": "Bignè artigianali ripieni di gelato alla vaniglia, ricoperti da salsa calda al cioccolato, crumble di biscotto e caramello."
+      }
+    }
+  },
+  {
+    "id": "drink-coca-cola-330",
+    "price": 1.8,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/coca-cola-330ml?c=1788766535",
+    "translations": {
+      "en": {
+        "name": "Coca-Cola 330ml",
+        "description": "Classic refreshing original taste of Coca-Cola in a 330ml can."
+      },
+      "el": {
+        "name": "Coca-Cola 330ml",
+        "description": "Η κλασική δροσιστική αυθεντική γεύση Coca-Cola σε κουτάκι 330ml."
+      },
+      "it": {
+        "name": "Coca-Cola Classica 330ml",
+        "description": "Il gusto originale e rinfrescante di Coca-Cola in lattina da 330ml."
+      }
+    }
+  },
+  {
+    "id": "drink-coca-cola-zero-330",
+    "price": 1.8,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/coca-cola-zero-330ml?c=1791466647",
+    "translations": {
+      "en": {
+        "name": "Coca-Cola Zero 330ml",
+        "description": "Original Coca-Cola taste with zero sugar and zero calories in a 330ml can."
+      },
+      "el": {
+        "name": "Coca-Cola Zero 330ml",
+        "description": "Η αυθεντική γεύση της Coca-Cola χωρίς ζάχαρη και χωρίς θερμίδες σε κουτάκι 330ml."
+      },
+      "it": {
+        "name": "Coca-Cola Zero Zuccheri 330ml",
+        "description": "Tutto il gusto autentico di Coca-Cola senza calorie né zuccheri in lattina da 330ml."
+      }
+    }
+  },
+  {
+    "id": "drink-fanta-orange-330",
+    "price": 1.8,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/restaurants/7597106/menu_item/000000000060?c=1755525047",
+    "translations": {
+      "en": {
+        "name": "Fanta Orange 330ml",
+        "description": "Sparkling refreshing orangeade soda in a 330ml can."
+      },
+      "el": {
+        "name": "Fanta πορτοκαλάδα με ανθρακικό 330ml",
+        "description": "Δροσιστική ανθρακούχα πορτοκαλάδα Fanta σε κουτάκι 330ml."
+      },
+      "it": {
+        "name": "Fanta Aranciata Gassata 330ml",
+        "description": "Frizzante bibita all'arancia con succo naturale in lattina da 330ml."
+      }
+    }
+  },
+  {
+    "id": "drink-fanta-blue-330",
+    "price": 1.8,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:fanta-portokalada-mple-330ml?c=1787846485",
+    "translations": {
+      "en": {
+        "name": "Fanta Orange Blue Still 330ml",
+        "description": "Still refreshing orangeade drink without carbonation in a 330ml can."
+      },
+      "el": {
+        "name": "Fanta πορτοκαλάδα μπλε χωρίς ανθρακικό 330ml",
+        "description": "Αυθεντική πορτοκαλάδα χωρίς ανθρακικό σε κουτάκι 330ml."
+      },
+      "it": {
+        "name": "Fanta Aranciata Naturale 330ml",
+        "description": "Aranciata naturale senza anidride carbonica in lattina da 330ml."
+      }
+    }
+  },
+  {
+    "id": "drink-sprite-330",
+    "price": 1.8,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/sprite-330ml?c=1785225526",
+    "translations": {
+      "en": {
+        "name": "Sprite 330ml",
+        "description": "Crisp, sparkling lemon-lime soft drink in a 330ml can."
+      },
+      "el": {
+        "name": "Sprite 330ml",
+        "description": "Αφρώδες δροσιστικό αναψυκτικό με γεύση λεμόνι και λάιμ σε κουτάκι 330ml."
+      },
+      "it": {
+        "name": "Sprite Limone & Lime 330ml",
+        "description": "Frizzante ed esaltante bevanda analcolica al limone e lime da 330ml."
+      }
+    }
+  },
+  {
+    "id": "drink-coca-cola-500",
+    "price": 2.5,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/coca-cola-500ml?c=1788766718",
+    "translations": {
+      "en": {
+        "name": "Coca-Cola 500ml",
+        "description": "Classic refreshing Coca-Cola in a 500ml bottle."
+      },
+      "el": {
+        "name": "Coca-Cola 500ml",
+        "description": "Η κλασική αυθεντική Coca-Cola σε πλαστική φιάλη 500ml."
+      },
+      "it": {
+        "name": "Coca-Cola Classica 500ml",
+        "description": "Il gusto inconfondibile di Coca-Cola in bottiglia da 500ml."
+      }
+    }
+  },
+  {
+    "id": "drink-coca-cola-zero-500",
+    "price": 2.5,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/coca-cola-zero-500ml?c=1788768218",
+    "translations": {
+      "en": {
+        "name": "Coca-Cola Zero 500ml",
+        "description": "Coca-Cola Zero Sugar in a convenient 500ml bottle."
+      },
+      "el": {
+        "name": "Coca-Cola Zero 500ml",
+        "description": "Η αυθεντική γεύση Coca-Cola χωρίς ζάχαρη σε πλαστική φιάλη 500ml."
+      },
+      "it": {
+        "name": "Coca-Cola Zero 500ml",
+        "description": "Coca-Cola zero zuccheri e zero calorie in bottiglia da 500ml."
+      }
+    }
+  },
+  {
+    "id": "drink-fanta-orange-500",
+    "price": 2.5,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:fanta-portokalada-500ml?c=1759223760",
+    "translations": {
+      "en": {
+        "name": "Fanta Orange 500ml",
+        "description": "Sparkling orangeade soft drink in a 500ml bottle."
+      },
+      "el": {
+        "name": "Fanta πορτοκαλάδα με ανθρακικό 500ml",
+        "description": "Δροσιστική ανθρακούχα πορτοκαλάδα Fanta σε φιάλη 500ml."
+      },
+      "it": {
+        "name": "Fanta Aranciata Gassata 500ml",
+        "description": "Bibita gassata al succo d'arancia in bottiglia da 500ml."
+      }
+    }
+  },
+  {
+    "id": "drink-sprite-500",
+    "price": 2.5,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:sprite-500ml?c=1780923737",
+    "translations": {
+      "en": {
+        "name": "Sprite 500ml",
+        "description": "Sparkling lemon-lime beverage in a 500ml bottle."
+      },
+      "el": {
+        "name": "Sprite 500ml",
+        "description": "Δροσιστικό αναψυκτικό λεμόνι-λάιμ σε φιάλη 500ml."
+      },
+      "it": {
+        "name": "Sprite Limone & Lime 500ml",
+        "description": "Bevanda dissetante frizzante al limone e lime in bottiglia da 500ml."
+      }
+    }
+  },
+  {
+    "id": "drink-water-500",
+    "price": 0.6,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/nero-500ml?c=1772809305",
+    "translations": {
+      "en": {
+        "name": "Mineral Water 500ml",
+        "description": "Pure still natural mineral water in a 500ml bottle."
+      },
+      "el": {
+        "name": "Φυσικό μεταλλικό νερό 500ml",
+        "description": "Εμφιαλωμένο φυσικό μεταλλικό νερό 500ml."
+      },
+      "it": {
+        "name": "Acqua Naturale Minerale 500ml",
+        "description": "Acqua minerale naturale oligominerale in bottiglietta da 500ml."
+      }
+    }
+  },
+  {
+    "id": "drink-water-1500",
+    "price": 1.1,
+    "category": "soft-drinks",
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/nero-1-5lt?c=1789647847",
+    "translations": {
+      "en": {
+        "name": "Mineral Water 1.5L",
+        "description": "Pure still natural mineral water in a 1.5L bottle."
+      },
+      "el": {
+        "name": "Φυσικό μεταλλικό νερό 1.5L",
+        "description": "Εμφιαλωμένο φυσικό μεταλλικό νερό 1.5 λίτρου."
+      },
+      "it": {
+        "name": "Acqua Naturale Minerale 1,5L",
+        "description": "Acqua minerale naturale oligominerale in bottiglia da 1,5 litri."
+      }
+    }
+  },
+  {
+    "id": "ice-cream-1-scoop",
+    "price": 3.5,
+    "category": "ice-cream",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:kupelaki-me-1-mpala-pagwto?c=1789745747",
+    "translations": {
+      "en": {
+        "name": "Ice Cream Cup - 1 Scoop",
+        "description": "Cup with 1 scoop of artisanal ice cream in your favorite flavor."
+      },
+      "el": {
+        "name": "Κυπελάκι παγωτό - 1 μπάλα",
+        "description": "Κυπελάκι με 1 μπάλα χειροποίητο παγωτό στη γεύση της επιλογής σας."
+      },
+      "it": {
+        "name": "Coppetta Gelato - 1 Gusto",
+        "description": "Coppetta con 1 pallina di gelato artigianale a scelta."
+      }
+    }
+  },
+  {
+    "id": "ice-cream-2-scoops",
+    "price": 7.0,
+    "category": "ice-cream",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:kupelaki-me-2-mpales-pagwto?c=1787578787",
+    "translations": {
+      "en": {
+        "name": "Ice Cream Cup - 2 Scoops",
+        "description": "Cup with 2 scoops of artisanal ice cream in your favorite flavors."
+      },
+      "el": {
+        "name": "Κυπελάκι παγωτό - 2 μπάλες",
+        "description": "Κυπελάκι με 2 μπάλες χειροποίητο παγωτό στις γεύσεις της επιλογής σας."
+      },
+      "it": {
+        "name": "Coppetta Gelato - 2 Gusti",
+        "description": "Coppetta con 2 palline di gelato artigianale a scelta."
+      }
+    }
+  },
+  {
+    "id": "ice-cream-3-scoops",
+    "price": 10.5,
+    "category": "ice-cream",
+    "dietary": [
+      "vegetarian"
+    ],
+    "image": "https://cdn.e-food.gr/cdn-cgi/image/f=auto,q=100,w=800,h=450,fit=cover,dpr=2/global_assets/vertical:food:kupelaki-me-3-mpales-pagwto?c=1742824270",
+    "translations": {
+      "en": {
+        "name": "Ice Cream Cup - 3 Scoops",
+        "description": "Cup with 3 scoops of artisanal ice cream in your favorite flavors."
+      },
+      "el": {
+        "name": "Κυπελάκι παγωτό - 3 μπάλες",
+        "description": "Κυπελάκι με 3 μπάλες χειροποίητο παγωτό στις γεύσεις της επιλογής σας."
+      },
+      "it": {
+        "name": "Coppetta Gelato - 3 Gusti",
+        "description": "Coppetta con 3 palline di gelato artigianale a scelta."
+      }
+    }
+  }
 ]

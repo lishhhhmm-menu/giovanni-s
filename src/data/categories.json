@@ -1,92 +1,257 @@
 [
-    {
-        "id": "appetizers",
-        "icon": "🥗",
-        "translations": {
-            "en": {
-                "name": "Appetizers"
-            },
-            "el": {
-                "name": "Ορεκτικά"
-            },
-            "it": {
-                "name": "Antipasti"
-            }
-        }
-    },
-    {
-        "id": "mains",
-        "icon": "🍽️",
-        "translations": {
-            "en": {
-                "name": "Main Courses"
-            },
-            "el": {
-                "name": "Κύρια Πιάτα"
-            },
-            "it": {
-                "name": "Piatti Principali"
-            }
-        }
-    },
-    {
-        "id": "pasta",
-        "icon": "🍝",
-        "translations": {
-            "en": {
-                "name": "Pasta"
-            },
-            "el": {
-                "name": "Ζυμαρικά"
-            },
-            "it": {
-                "name": "Pasta"
-            }
-        }
-    },
-    {
-        "id": "seafood",
-        "icon": "🦞",
-        "translations": {
-            "en": {
-                "name": "Seafood"
-            },
-            "el": {
-                "name": "Θαλασσινά"
-            },
-            "it": {
-                "name": "Pesce"
-            }
-        }
-    },
-    {
-        "id": "desserts",
-        "icon": "🍰",
-        "translations": {
-            "en": {
-                "name": "Desserts"
-            },
-            "el": {
-                "name": "Επιδόρπια"
-            },
-            "it": {
-                "name": "Dolci"
-            }
-        }
-    },
-    {
-        "id": "beverages",
-        "icon": "🍹",
-        "translations": {
-            "en": {
-                "name": "Beverages"
-            },
-            "el": {
-                "name": "Ποτά"
-            },
-            "it": {
-                "name": "Bevande"
-            }
-        }
+  {
+    "id": "coffees",
+    "icon": "☕",
+    "translations": {
+      "en": {
+        "name": "Coffees"
+      },
+      "el": {
+        "name": "Καφέδες"
+      },
+      "it": {
+        "name": "Caffetteria"
+      }
     }
+  },
+  {
+    "id": "chocolates",
+    "icon": "🍫",
+    "translations": {
+      "en": {
+        "name": "Chocolates"
+      },
+      "el": {
+        "name": "Σοκολάτες"
+      },
+      "it": {
+        "name": "Cioccolate"
+      }
+    }
+  },
+  {
+    "id": "juices",
+    "icon": "🍊",
+    "translations": {
+      "en": {
+        "name": "Fresh Juices"
+      },
+      "el": {
+        "name": "Φυσικοί χυμοί"
+      },
+      "it": {
+        "name": "Spremute & Succhi"
+      }
+    }
+  },
+  {
+    "id": "tea-herbal",
+    "icon": "🫖",
+    "translations": {
+      "en": {
+        "name": "Teas & Infusions"
+      },
+      "el": {
+        "name": "Τσάι & Βότανα"
+      },
+      "it": {
+        "name": "Tè & Tisane"
+      }
+    }
+  },
+  {
+    "id": "savory-breakfast",
+    "icon": "🥪",
+    "translations": {
+      "en": {
+        "name": "Savory Breakfast"
+      },
+      "el": {
+        "name": "Αλμυρά πρωινά"
+      },
+      "it": {
+        "name": "Colazione Salata"
+      }
+    }
+  },
+  {
+    "id": "sweet-breakfast",
+    "icon": "🥞",
+    "translations": {
+      "en": {
+        "name": "Sweet Breakfast"
+      },
+      "el": {
+        "name": "Γλυκά πρωινά"
+      },
+      "it": {
+        "name": "Colazione Dolce"
+      }
+    }
+  },
+  {
+    "id": "yogurts",
+    "icon": "🥣",
+    "translations": {
+      "en": {
+        "name": "Yogurt Bowls"
+      },
+      "el": {
+        "name": "Μπολ γιαουρτιού"
+      },
+      "it": {
+        "name": "Coppe di Yogurt"
+      }
+    }
+  },
+  {
+    "id": "bread-couvert",
+    "icon": "🥖",
+    "translations": {
+      "en": {
+        "name": "Bread & Couvert"
+      },
+      "el": {
+        "name": "Κουβέρ & Ψωμί"
+      },
+      "it": {
+        "name": "Pane & Coperto"
+      }
+    }
+  },
+  {
+    "id": "appetizers",
+    "icon": "🍟",
+    "translations": {
+      "en": {
+        "name": "Appetizers"
+      },
+      "el": {
+        "name": "Ορεκτικά"
+      },
+      "it": {
+        "name": "Antipasti"
+      }
+    }
+  },
+  {
+    "id": "salads",
+    "icon": "🥗",
+    "translations": {
+      "en": {
+        "name": "Salads"
+      },
+      "el": {
+        "name": "Σαλάτες"
+      },
+      "it": {
+        "name": "Insalate"
+      }
+    }
+  },
+  {
+    "id": "pinsa",
+    "icon": "🍕",
+    "translations": {
+      "en": {
+        "name": "Pinsa Romana"
+      },
+      "el": {
+        "name": "Πίνσα Ρομάνα"
+      },
+      "it": {
+        "name": "Pinsa Romana"
+      }
+    }
+  },
+  {
+    "id": "pasta",
+    "icon": "🍝",
+    "translations": {
+      "en": {
+        "name": "Pasta"
+      },
+      "el": {
+        "name": "Ζυμαρικά"
+      },
+      "it": {
+        "name": "Pasta"
+      }
+    }
+  },
+  {
+    "id": "burgers",
+    "icon": "🍔",
+    "translations": {
+      "en": {
+        "name": "Burgers"
+      },
+      "el": {
+        "name": "Μπέργκερ"
+      },
+      "it": {
+        "name": "Hamburger"
+      }
+    }
+  },
+  {
+    "id": "mains",
+    "icon": "🥩",
+    "translations": {
+      "en": {
+        "name": "Main Courses"
+      },
+      "el": {
+        "name": "Κυρίως πιάτα"
+      },
+      "it": {
+        "name": "Secondi Piatti"
+      }
+    }
+  },
+  {
+    "id": "desserts",
+    "icon": "🍰",
+    "translations": {
+      "en": {
+        "name": "Desserts"
+      },
+      "el": {
+        "name": "Γλυκά"
+      },
+      "it": {
+        "name": "Dolci"
+      }
+    }
+  },
+  {
+    "id": "ice-cream",
+    "icon": "🍨",
+    "translations": {
+      "en": {
+        "name": "Ice Cream"
+      },
+      "el": {
+        "name": "Παγωτά"
+      },
+      "it": {
+        "name": "Gelati"
+      }
+    }
+  },
+  {
+    "id": "soft-drinks",
+    "icon": "🥤",
+    "translations": {
+      "en": {
+        "name": "Soft Drinks"
+      },
+      "el": {
+        "name": "Αναψυκτικά & Νερό"
+      },
+      "it": {
+        "name": "Bibite & Acqua"
+      }
+    }
+  }
 ]
